@@ -1,0 +1,5538 @@
+{
+    "maGioiTinh": {
+        "notFound": [],
+        "1": {
+            "id": "1",
+            "text": "Nam"
+        },
+        "2": {
+            "id": "0",
+            "text": "Nữ"
+        }
+    },
+    "maLoaiSinhVien": {
+        "notFound": [],
+        "L1": {
+            "id": "L1",
+            "text": "Chính thức"
+        },
+        "L2": {
+            "id": "L4",
+            "text": "Nước ngoài"
+        }
+    },
+    "maTinhTrangSinhVien": {
+        "1": {
+            "id": "1",
+            "text": "Còn học"
+        },
+        "2": {
+            "id": "2",
+            "text": "Nghỉ học tạm thời"
+        },
+        "3": {
+            "id": "3",
+            "text": "Buộc thôi học"
+        },
+        "4": {
+            "id": "4",
+            "text": "Thôi học"
+        },
+        "6": {
+            "id": "6",
+            "text": "Tốt nghiệp"
+        },
+        "7": {
+            "id": "7",
+            "text": "Chuyển trường"
+        },
+        "9": {
+            "id": "9",
+            "text": "Kỷ luật"
+        },
+        "notFound": []
+    },
+    "maHuyenThuongTru": {
+        "100": {
+            "id": "6203",
+            "text": "Huyện Điện Biên"
+        },
+        "101": {
+            "id": "6207",
+            "text": "Huyện Điện Biên Đông"
+        },
+        "102": {
+            "id": "6209",
+            "text": "Huyện Mường Ảng"
+        },
+        "103": {
+            "id": "6210",
+            "text": "Huyện Nậm Pồ"
+        },
+        "105": {
+            "id": "0701",
+            "text": "Thành Phố Lai Châu"
+        },
+        "106": {
+            "id": "0702",
+            "text": "Huyện Tam Đường"
+        },
+        "107": {
+            "id": "0705",
+            "text": "Huyện Mường Tè"
+        },
+        "108": {
+            "id": "0704",
+            "text": "Huyện Sìn Hồ"
+        },
+        "109": {
+            "id": "0703",
+            "text": "Huyện Phong Thổ"
+        },
+        "110": {
+            "id": "0706",
+            "text": "Huyện Than Uyên"
+        },
+        "111": {
+            "id": "0707",
+            "text": "Huyện Tân Uyên"
+        },
+        "112": {
+            "id": "0708",
+            "text": "Huyện Nậm Nhùn"
+        },
+        "116": {
+            "id": "1401",
+            "text": "Thành phố Sơn La"
+        },
+        "118": {
+            "id": "1402",
+            "text": "Huyện Quỳnh Nhai"
+        },
+        "119": {
+            "id": "1404",
+            "text": "Huyện Thuận Châu"
+        },
+        "120": {
+            "id": "1403",
+            "text": "Huyện Mường La"
+        },
+        "121": {
+            "id": "1405",
+            "text": "Huyện Bắc Yên"
+        },
+        "122": {
+            "id": "1406",
+            "text": "Huyện Phù Yên"
+        },
+        "123": {
+            "id": "1410",
+            "text": "Huyện Mộc Châu"
+        },
+        "124": {
+            "id": "1408",
+            "text": "Huyện Yên Châu"
+        },
+        "125": {
+            "id": "1407",
+            "text": "Huyện Mai Sơn"
+        },
+        "126": {
+            "id": "1409",
+            "text": "Huyện Sông Mã"
+        },
+        "127": {
+            "id": "1411",
+            "text": "Huyện Sốp Cộp"
+        },
+        "128": {
+            "id": "1412",
+            "text": "Huyện Vân Hồ"
+        },
+        "132": {
+            "id": "1301",
+            "text": "Thành phố Yên Bái"
+        },
+        "133": {
+            "id": "1302",
+            "text": "Thị xã Nghĩa Lộ"
+        },
+        "135": {
+            "id": "1309",
+            "text": "Huyện Lục Yên"
+        },
+        "136": {
+            "id": "1303",
+            "text": "Huyện Văn Yên"
+        },
+        "138": {
+            "id": "1307",
+            "text": "Huyện Trấn Yên"
+        },
+        "139": {
+            "id": "1308",
+            "text": "Huyện Trạm Tấu"
+        },
+        "140": {
+            "id": "1306",
+            "text": "Huyện Văn Chấn"
+        },
+        "141": {
+            "id": "1304",
+            "text": "Huyện Yên Bình"
+        },
+        "148": {
+            "id": "2301",
+            "text": "Thành phố Hòa Bình"
+        },
+        "150": {
+            "id": "2302",
+            "text": "Huyện Đà Bắc"
+        },
+        "152": {
+            "id": "2307",
+            "text": "Huyện Lương Sơn"
+        },
+        "153": {
+            "id": "2308",
+            "text": "Huyện Kim Bôi"
+        },
+        "154": {
+            "id": "2311",
+            "text": "Huyện Cao Phong"
+        },
+        "155": {
+            "id": "2304",
+            "text": "Huyện Tân Lạc"
+        },
+        "156": {
+            "id": "2303",
+            "text": "Huyện Mai Châu"
+        },
+        "157": {
+            "id": "2305",
+            "text": "Huyện Lạc Sơn"
+        },
+        "158": {
+            "id": "2310",
+            "text": "Huyện Yên Thủy"
+        },
+        "159": {
+            "id": "2309",
+            "text": "Huyện Lạc Thủy"
+        },
+        "164": {
+            "id": "1201",
+            "text": "Thành phố Thái Nguyên"
+        },
+        "165": {
+            "id": "1202",
+            "text": "Thành phố Sông Công"
+        },
+        "167": {
+            "id": "1203",
+            "text": "Huyện Định Hóa"
+        },
+        "168": {
+            "id": "1204",
+            "text": "Huyện Phú Lương"
+        },
+        "169": {
+            "id": "1207",
+            "text": "Huyện Đồng Hỷ"
+        },
+        "170": {
+            "id": "1205",
+            "text": "Huyện Võ Nhai"
+        },
+        "171": {
+            "id": "1206",
+            "text": "Huyện Đại Từ"
+        },
+        "172": {
+            "id": "1209",
+            "text": "Thị xã Phổ Yên"
+        },
+        "173": {
+            "id": "1208",
+            "text": "Huyện Phú Bình"
+        },
+        "178": {
+            "id": "1001",
+            "text": "Thành phố Lạng Sơn"
+        },
+        "180": {
+            "id": "1002",
+            "text": "Huyện Tràng Định"
+        },
+        "181": {
+            "id": "1003",
+            "text": "Huyện Bình Gia"
+        },
+        "182": {
+            "id": "1004",
+            "text": "Huyện Văn Lãng"
+        },
+        "183": {
+            "id": "1007",
+            "text": "Huyện Cao Lộc"
+        },
+        "184": {
+            "id": "1006",
+            "text": "Huyện Văn Quan"
+        },
+        "185": {
+            "id": "1005",
+            "text": "Huyện Bắc Sơn"
+        },
+        "186": {
+            "id": "1011",
+            "text": "Huyện Hữu Lũng"
+        },
+        "187": {
+            "id": "1009",
+            "text": "Huyện Chi Lăng"
+        },
+        "188": {
+            "id": "1008",
+            "text": "Huyện Lộc Bình"
+        },
+        "189": {
+            "id": "1010",
+            "text": "Huyện Đình Lập"
+        },
+        "193": {
+            "id": "1701",
+            "text": "Thành phố Hạ Long"
+        },
+        "194": {
+            "id": "1704",
+            "text": "Thành phố Móng Cái"
+        },
+        "195": {
+            "id": "1702",
+            "text": "Thành phố Cẩm Phả"
+        },
+        "196": {
+            "id": "1703",
+            "text": "Thành phố Uông Bí"
+        },
+        "198": {
+            "id": "1705",
+            "text": "Huyện Bình Liêu"
+        },
+        "199": {
+            "id": "1708",
+            "text": "Huyện Tiên Yên"
+        },
+        "200": {
+            "id": "1706",
+            "text": "Huyện Đầm Hà"
+        },
+        "201": {
+            "id": "1707",
+            "text": "Huyện Hải Hà"
+        },
+        "202": {
+            "id": "1709",
+            "text": "Huyện Ba Chẽ"
+        },
+        "203": {
+            "id": "1713",
+            "text": "Huyện Vân Đồn"
+        },
+        "205": {
+            "id": "1710",
+            "text": "Thị xã Đông Triều"
+        },
+        "206": {
+            "id": "1711",
+            "text": "Thị xã Quảng Yên"
+        },
+        "207": {
+            "id": "1714",
+            "text": "Huyện Cô Tô"
+        },
+        "213": {
+            "id": "1801",
+            "text": "Thành phố Bắc Giang"
+        },
+        "215": {
+            "id": "1802",
+            "text": "Huyện Yên Thế"
+        },
+        "216": {
+            "id": "1806",
+            "text": "Huyện Tân Yên"
+        },
+        "217": {
+            "id": "1808",
+            "text": "Huyện Lạng Giang"
+        },
+        "218": {
+            "id": "1805",
+            "text": "Huyện Lục Nam"
+        },
+        "219": {
+            "id": "1803",
+            "text": "Huyện Lục Ngạn"
+        },
+        "220": {
+            "id": "1804",
+            "text": "Huyện Sơn Động"
+        },
+        "221": {
+            "id": "1810",
+            "text": "Huyện Yên Dũng"
+        },
+        "222": {
+            "id": "1809",
+            "text": "Huyện Việt Yên"
+        },
+        "223": {
+            "id": "1807",
+            "text": "Huyện Hiệp Hòa"
+        },
+        "227": {
+            "id": "1501",
+            "text": "Thành phố Việt Trì"
+        },
+        "228": {
+            "id": "1502",
+            "text": "Thị xã Phú Thọ"
+        },
+        "230": {
+            "id": "1503",
+            "text": "Huyện Đoan Hùng"
+        },
+        "231": {
+            "id": "1505",
+            "text": "Huyện Hạ Hòa"
+        },
+        "232": {
+            "id": "1504",
+            "text": "Huyện Thanh Ba"
+        },
+        "233": {
+            "id": "1509",
+            "text": "Huyện Phù Ninh"
+        },
+        "234": {
+            "id": "1507",
+            "text": "Huyện Yên Lập"
+        },
+        "235": {
+            "id": "1506",
+            "text": "Huyện Cẩm Khê"
+        },
+        "236": {
+            "id": "1511",
+            "text": "Huyện Tam Nông"
+        },
+        "237": {
+            "id": "1510",
+            "text": "Huyện Lâm Thao"
+        },
+        "238": {
+            "id": "1508",
+            "text": "Huyện Thanh Sơn"
+        },
+        "239": {
+            "id": "1512",
+            "text": "Huyện Thanh Thủy"
+        },
+        "240": {
+            "id": "1513",
+            "text": "Huyện Tân Sơn"
+        },
+        "243": {
+            "id": "1601",
+            "text": "Thành phố Vĩnh Yên"
+        },
+        "244": {
+            "id": "1608",
+            "text": "Thành phố Phúc Yên"
+        },
+        "246": {
+            "id": "1603",
+            "text": "Huyện Lập Thạch"
+        },
+        "247": {
+            "id": "1602",
+            "text": "Huyện Tam Dương"
+        },
+        "248": {
+            "id": "1609",
+            "text": "Huyện Tam Đảo"
+        },
+        "249": {
+            "id": "1606",
+            "text": "Huyện Bình Xuyên"
+        },
+        "250": {
+            "id": "0129",
+            "text": "Huyện Mê Linh"
+        },
+        "251": {
+            "id": "1605",
+            "text": "Huyện Yên Lạc"
+        },
+        "252": {
+            "id": "1604",
+            "text": "Huyện Vĩnh Tường"
+        },
+        "253": {
+            "id": "1607",
+            "text": "Huyện Sông Lô"
+        },
+        "256": {
+            "id": "1901",
+            "text": "Thành phố Bắc Ninh"
+        },
+        "258": {
+            "id": "1902",
+            "text": "Huyện Yên Phong"
+        },
+        "259": {
+            "id": "1903",
+            "text": "Huyện Quế Võ"
+        },
+        "260": {
+            "id": "1904",
+            "text": "Huyện Tiên Du"
+        },
+        "261": {
+            "id": "1905",
+            "text": "Thị xã Từ Sơn"
+        },
+        "262": {
+            "id": "1906",
+            "text": "Huyện Thuận Thành"
+        },
+        "263": {
+            "id": "1907",
+            "text": "Huyện Gia Bình"
+        },
+        "264": {
+            "id": "1908",
+            "text": "Huyện Lương Tài"
+        },
+        "268": {
+            "id": "0115",
+            "text": "Quận Hà Đông"
+        },
+        "269": {
+            "id": "0116",
+            "text": "Thị xã Sơn Tây"
+        },
+        "271": {
+            "id": "0117",
+            "text": "Huyện Ba Vì"
+        },
+        "272": {
+            "id": "0118",
+            "text": "Huyện Phúc Thọ"
+        },
+        "273": {
+            "id": "0122",
+            "text": "Huyện Đan Phượng"
+        },
+        "274": {
+            "id": "0123",
+            "text": "Huyện Hoài Đức"
+        },
+        "275": {
+            "id": "0120",
+            "text": "Huyện Quốc Oai"
+        },
+        "276": {
+            "id": "0119",
+            "text": "Huyện Thạch Thất"
+        },
+        "277": {
+            "id": "0121",
+            "text": "Huyện Chương Mỹ"
+        },
+        "278": {
+            "id": "0124",
+            "text": "Huyện Thanh Oai"
+        },
+        "279": {
+            "id": "0127",
+            "text": "Huyện Thường Tín"
+        },
+        "280": {
+            "id": "0128",
+            "text": "Huyện Phú Xuyên"
+        },
+        "281": {
+            "id": "0126",
+            "text": "Huyện ứng Hòa"
+        },
+        "282": {
+            "id": "0125",
+            "text": "Huyện Mỹ Đức"
+        },
+        "288": {
+            "id": "2101",
+            "text": "Thành phố Hải Dương"
+        },
+        "290": {
+            "id": "2102",
+            "text": "Thành phố Chí Linh"
+        },
+        "291": {
+            "id": "2103",
+            "text": "Huyện Nam Sách"
+        },
+        "292": {
+            "id": "2104",
+            "text": "Huyện Kinh Môn"
+        },
+        "293": {
+            "id": "2111",
+            "text": "Huyện Kim Thành"
+        },
+        "294": {
+            "id": "2110",
+            "text": "Huyện Thanh Hà"
+        },
+        "295": {
+            "id": "2109",
+            "text": "Huyện Cẩm Giàng"
+        },
+        "296": {
+            "id": "2112",
+            "text": "Huyện Bình Giang"
+        },
+        "297": {
+            "id": "2105",
+            "text": "Huyện Gia Lộc"
+        },
+        "298": {
+            "id": "2106",
+            "text": "Huyện Tứ Kỳ"
+        },
+        "299": {
+            "id": "2108",
+            "text": "Huyện Ninh Giang"
+        },
+        "300": {
+            "id": "2107",
+            "text": "Huyện Thanh Miện"
+        },
+        "303": {
+            "id": "0301",
+            "text": "Quận Hồng Bàng"
+        },
+        "304": {
+            "id": "0303",
+            "text": "Quận Ngô Quyền"
+        },
+        "305": {
+            "id": "0302",
+            "text": "Quận Lê Chân"
+        },
+        "306": {
+            "id": "0305",
+            "text": "Quận Hải An"
+        },
+        "307": {
+            "id": "0304",
+            "text": "Quận Kiến An"
+        },
+        "308": {
+            "id": "0306",
+            "text": "Quận Đồ Sơn"
+        },
+        "309": {
+            "id": "0315",
+            "text": "Quận Dương Kinh"
+        },
+        "311": {
+            "id": "0309",
+            "text": "Huyện Thủy Nguyên"
+        },
+        "312": {
+            "id": "0310",
+            "text": "Huyện An Dương"
+        },
+        "313": {
+            "id": "0307",
+            "text": "Huyện An Lão"
+        },
+        "314": {
+            "id": "0308",
+            "text": "Huyện Kiến Thụy"
+        },
+        "315": {
+            "id": "0311",
+            "text": "Huyện Tiên Lãng"
+        },
+        "316": {
+            "id": "0312",
+            "text": "Huyện Vĩnh Bảo"
+        },
+        "317": {
+            "id": "0313",
+            "text": "Huyện Cát Hải"
+        },
+        "318": {
+            "id": "0314",
+            "text": "Huyện Bạch Long Vĩ"
+        },
+        "323": {
+            "id": "2201",
+            "text": "Thành phố Hưng Yên"
+        },
+        "325": {
+            "id": "2209",
+            "text": "Huyện Văn Lâm"
+        },
+        "326": {
+            "id": "2210",
+            "text": "Huyện Văn Giang"
+        },
+        "327": {
+            "id": "2205",
+            "text": "Huyện Yên Mỹ"
+        },
+        "328": {
+            "id": "2208",
+            "text": "Huyện Mỹ Hào"
+        },
+        "329": {
+            "id": "2203",
+            "text": "Huyện ân Thi"
+        },
+        "330": {
+            "id": "2204",
+            "text": "Huyện Khoái Châu"
+        },
+        "331": {
+            "id": "2202",
+            "text": "Huyện Kim Động"
+        },
+        "332": {
+            "id": "2206",
+            "text": "Huyện Tiên Lữ"
+        },
+        "333": {
+            "id": "2207",
+            "text": "Huyện Phù Cừ"
+        },
+        "336": {
+            "id": "2601",
+            "text": "Thành phố Thái Bình"
+        },
+        "338": {
+            "id": "2602",
+            "text": "Huyện Quỳnh Phụ"
+        },
+        "339": {
+            "id": "2603",
+            "text": "Huyện Hưng Hà"
+        },
+        "340": {
+            "id": "2604",
+            "text": "Huyện Đông Hưng"
+        },
+        "341": {
+            "id": "2608",
+            "text": "Huyện Thái Thụy"
+        },
+        "342": {
+            "id": "2607",
+            "text": "Huyện Tiền Hải"
+        },
+        "343": {
+            "id": "2606",
+            "text": "Huyện Kiến Xương"
+        },
+        "344": {
+            "id": "2605",
+            "text": "Huyện Vũ Thư"
+        },
+        "347": {
+            "id": "2401",
+            "text": "Thành phố Phủ Lý"
+        },
+        "349": {
+            "id": "2402",
+            "text": "Huyện Duy Tiên"
+        },
+        "350": {
+            "id": "2403",
+            "text": "Huyện Kim Bảng"
+        },
+        "351": {
+            "id": "2405",
+            "text": "Huyện Thanh Liêm"
+        },
+        "352": {
+            "id": "2406",
+            "text": "Huyện Bình Lục"
+        },
+        "353": {
+            "id": "2404",
+            "text": "Huyện Lý Nhân"
+        },
+        "356": {
+            "id": "2501",
+            "text": "Thành phố Nam Định"
+        },
+        "358": {
+            "id": "2502",
+            "text": "Huyện Mỹ Lộc"
+        },
+        "359": {
+            "id": "2506",
+            "text": "Huyện Vụ Bản"
+        },
+        "360": {
+            "id": "2505",
+            "text": "Huyện ý Yên"
+        },
+        "361": {
+            "id": "2509",
+            "text": "Huyện Nghĩa Hưng"
+        },
+        "362": {
+            "id": "2507",
+            "text": "Huyện Nam Trực"
+        },
+        "363": {
+            "id": "2508",
+            "text": "Huyện Trực Ninh"
+        },
+        "364": {
+            "id": "2503",
+            "text": "Huyện Xuân Trường"
+        },
+        "365": {
+            "id": "2504",
+            "text": "Huyện Giao Thủy"
+        },
+        "366": {
+            "id": "2510",
+            "text": "Huyện Hải Hậu"
+        },
+        "369": {
+            "id": "2701",
+            "text": "Thành phố Ninh Bình"
+        },
+        "370": {
+            "id": "2702",
+            "text": "Thành phố Tam Điệp"
+        },
+        "372": {
+            "id": "2703",
+            "text": "Huyện Nho Quan"
+        },
+        "373": {
+            "id": "2704",
+            "text": "Huyện Gia Viễn"
+        },
+        "374": {
+            "id": "2705",
+            "text": "Huyện Hoa Lư"
+        },
+        "375": {
+            "id": "2708",
+            "text": "Huyện Yên Khánh"
+        },
+        "376": {
+            "id": "2707",
+            "text": "Huyện Kim Sơn"
+        },
+        "377": {
+            "id": "2706",
+            "text": "Huyện Yên Mô"
+        },
+        "380": {
+            "id": "2801",
+            "text": "Thành phố Thanh Hóa"
+        },
+        "381": {
+            "id": "2802",
+            "text": "Thị xã Bỉm Sơn"
+        },
+        "382": {
+            "id": "2803",
+            "text": "Thành phố Sầm Sơn"
+        },
+        "384": {
+            "id": "2806",
+            "text": "Huyện Mường Lát"
+        },
+        "385": {
+            "id": "2804",
+            "text": "Huyện Quan Hóa"
+        },
+        "386": {
+            "id": "2807",
+            "text": "Huyện Bá Thước"
+        },
+        "387": {
+            "id": "2805",
+            "text": "Huyện Quan Sơn"
+        },
+        "388": {
+            "id": "2811",
+            "text": "Huyện Lang Chánh"
+        },
+        "389": {
+            "id": "2812",
+            "text": "Huyện Ngọc Lặc"
+        },
+        "390": {
+            "id": "2814",
+            "text": "Huyện Cẩm Thủy"
+        },
+        "391": {
+            "id": "2813",
+            "text": "Huyện Thạch Thành"
+        },
+        "392": {
+            "id": "2821",
+            "text": "Huyện Hà Trung"
+        },
+        "393": {
+            "id": "2816",
+            "text": "Huyện Vĩnh Lộc"
+        },
+        "394": {
+            "id": "2827",
+            "text": "Huyện Yên Định"
+        },
+        "395": {
+            "id": "2815",
+            "text": "Huyện Thọ Xuân"
+        },
+        "396": {
+            "id": "2808",
+            "text": "Huyện Thường Xuân"
+        },
+        "397": {
+            "id": "2818",
+            "text": "Huyện Triệu Sơn"
+        },
+        "398": {
+            "id": "2817",
+            "text": "Huyện Thiệu Hóa"
+        },
+        "399": {
+            "id": "2822",
+            "text": "Huyện Hoằng Hóa"
+        },
+        "400": {
+            "id": "2824",
+            "text": "Huyện Hậu Lộc"
+        },
+        "401": {
+            "id": "2823",
+            "text": "Huyện Nga Sơn"
+        },
+        "402": {
+            "id": "2809",
+            "text": "Huyện Như Xuân"
+        },
+        "403": {
+            "id": "2810",
+            "text": "Huyện Như Thanh"
+        },
+        "404": {
+            "id": "2819",
+            "text": "Huyện Nông Cống"
+        },
+        "405": {
+            "id": "2820",
+            "text": "Huyện Đông Sơn"
+        },
+        "406": {
+            "id": "2825",
+            "text": "Huyện Quảng Xương"
+        },
+        "412": {
+            "id": "2901",
+            "text": "Thành phố Vinh"
+        },
+        "413": {
+            "id": "2902",
+            "text": "Thị xã Cửa Lò"
+        },
+        "414": {
+            "id": "2920",
+            "text": "Thị Xã Thái Hòa"
+        },
+        "415": {
+            "id": "2919",
+            "text": "Huyện Quế Phong"
+        },
+        "416": {
+            "id": "2903",
+            "text": "Huyện Quỳ Châu"
+        },
+        "417": {
+            "id": "2306",
+            "text": "Huyện Kỳ Sơn"
+        },
+        "418": {
+            "id": "2908",
+            "text": "Huyện Tương Dương"
+        },
+        "419": {
+            "id": "2905",
+            "text": "Huyện Nghĩa Đàn"
+        },
+        "420": {
+            "id": "2904",
+            "text": "Huyện Quỳ Hợp"
+        },
+        "421": {
+            "id": "2906",
+            "text": "Huyện Quỳnh Lưu"
+        },
+        "422": {
+            "id": "2909",
+            "text": "Huyện Con Cuông"
+        },
+        "423": {
+            "id": "2910",
+            "text": "Huyện Tân Kỳ"
+        },
+        "424": {
+            "id": "2913",
+            "text": "Huyện Anh Sơn"
+        },
+        "425": {
+            "id": "2912",
+            "text": "Huyện Diễn Châu"
+        },
+        "426": {
+            "id": "2911",
+            "text": "Huyện Yên Thành"
+        },
+        "427": {
+            "id": "2914",
+            "text": "Huyện Đô Lương"
+        },
+        "428": {
+            "id": "2915",
+            "text": "Huyện Thanh Chương"
+        },
+        "429": {
+            "id": "2916",
+            "text": "Huyện Nghi Lộc"
+        },
+        "430": {
+            "id": "2917",
+            "text": "Huyện Nam Đàn"
+        },
+        "431": {
+            "id": "2918",
+            "text": "Huyện Hưng Nguyên"
+        },
+        "432": {
+            "id": "0108",
+            "text": "Quận Hoàng Mai"
+        },
+        "436": {
+            "id": "3001",
+            "text": "Thành phố Hà Tĩnh"
+        },
+        "437": {
+            "id": "3002",
+            "text": "Thị xã Hồng Lĩnh"
+        },
+        "439": {
+            "id": "3003",
+            "text": "Huyện Hương Sơn"
+        },
+        "440": {
+            "id": "3004",
+            "text": "Huyện Đức Thọ"
+        },
+        "441": {
+            "id": "3011",
+            "text": "Huyện Vũ Quang"
+        },
+        "442": {
+            "id": "3005",
+            "text": "Huyện Nghi Xuân"
+        },
+        "443": {
+            "id": "3006",
+            "text": "Huyện Can Lộc"
+        },
+        "444": {
+            "id": "3007",
+            "text": "Huyện Hương Khê"
+        },
+        "445": {
+            "id": "3008",
+            "text": "Huyện Thạch Hà"
+        },
+        "446": {
+            "id": "3009",
+            "text": "Huyện Cẩm Xuyên"
+        },
+        "447": {
+            "id": "3010",
+            "text": "Huyện Kỳ Anh"
+        },
+        "448": {
+            "id": "3012",
+            "text": "Huyện Lộc Hà"
+        },
+        "449": {
+            "id": "3010",
+            "text": "Huyện Kỳ Anh"
+        },
+        "450": {
+            "id": "3101",
+            "text": "Thành phố Đồng Hới"
+        },
+        "452": {
+            "id": "3103",
+            "text": "Huyện Minh Hóa"
+        },
+        "453": {
+            "id": "3102",
+            "text": "Huyện Tuyên Hóa"
+        },
+        "454": {
+            "id": "3104",
+            "text": "Huyện Quảng Trạch"
+        },
+        "455": {
+            "id": "3105",
+            "text": "Huyện Bố Trạch"
+        },
+        "456": {
+            "id": "3106",
+            "text": "Huyện Quảng Ninh"
+        },
+        "457": {
+            "id": "3107",
+            "text": "Huyện Lệ Thủy"
+        },
+        "458": {
+            "id": "3108",
+            "text": "Thị xã Ba Đồn"
+        },
+        "461": {
+            "id": "3201",
+            "text": "Thành phố Đông Hà"
+        },
+        "462": {
+            "id": "3202",
+            "text": "Thị xã Quảng Trị"
+        },
+        "464": {
+            "id": "3203",
+            "text": "Huyện Vĩnh Linh"
+        },
+        "465": {
+            "id": "3208",
+            "text": "Huyện Hướng Hóa"
+        },
+        "466": {
+            "id": "3204",
+            "text": "Huyện Gio Linh"
+        },
+        "468": {
+            "id": "3205",
+            "text": "Huyện Cam Lộ"
+        },
+        "469": {
+            "id": "3206",
+            "text": "Huyện Triệu Phong"
+        },
+        "470": {
+            "id": "3207",
+            "text": "Huyện Hải Lăng"
+        },
+        "471": {
+            "id": "3210",
+            "text": "Huyện Đảo Cồn Cỏ"
+        },
+        "474": {
+            "id": "3301",
+            "text": "Thành phố Huế"
+        },
+        "476": {
+            "id": "3302",
+            "text": "Huyện Phong Điền"
+        },
+        "477": {
+            "id": "3303",
+            "text": "Huyện Quảng Điền"
+        },
+        "478": {
+            "id": "3305",
+            "text": "Huyện Phú Vang"
+        },
+        "479": {
+            "id": "3306",
+            "text": "Thị xã Hương Thủy"
+        },
+        "480": {
+            "id": "3304",
+            "text": "Thị xã Hương Trà"
+        },
+        "481": {
+            "id": "3309",
+            "text": "Huyện A Lưới"
+        },
+        "482": {
+            "id": "3307",
+            "text": "Huyện Phú Lộc"
+        },
+        "483": {
+            "id": "3308",
+            "text": "Huyện Nam Đông"
+        },
+        "490": {
+            "id": "0405",
+            "text": "Quận Liên Chiểu"
+        },
+        "491": {
+            "id": "0402",
+            "text": "Quận Thanh Khê"
+        },
+        "492": {
+            "id": "0401",
+            "text": "Quận Hải Châu"
+        },
+        "493": {
+            "id": "0403",
+            "text": "Quận Sơn Trà"
+        },
+        "494": {
+            "id": "0404",
+            "text": "Quận Ngũ Hành Sơn"
+        },
+        "495": {
+            "id": "0407",
+            "text": "Quận Cẩm Lệ"
+        },
+        "497": {
+            "id": "0406",
+            "text": "Huyện Hòa Vang"
+        },
+        "498": {
+            "id": "0408",
+            "text": "Huyện Hoàng Sa"
+        },
+        "502": {
+            "id": "3401",
+            "text": "Thành phố Tam Kỳ"
+        },
+        "503": {
+            "id": "3402",
+            "text": "Thành phố Hội An"
+        },
+        "504": {
+            "id": "3416",
+            "text": "Huyện Tây Giang"
+        },
+        "505": {
+            "id": "3412",
+            "text": "Huyện Đông Giang"
+        },
+        "506": {
+            "id": "3405",
+            "text": "Huyện Đại Lộc"
+        },
+        "507": {
+            "id": "3404",
+            "text": "Thị xã Điện Bàn"
+        },
+        "508": {
+            "id": "3403",
+            "text": "Huyện Duy Xuyên"
+        },
+        "509": {
+            "id": "3406",
+            "text": "Huyện Quế Sơn"
+        },
+        "510": {
+            "id": "3413",
+            "text": "Huyện Nam Giang"
+        },
+        "511": {
+            "id": "3414",
+            "text": "Huyện Phước Sơn"
+        },
+        "512": {
+            "id": "3407",
+            "text": "Huyện Hiệp Đức"
+        },
+        "513": {
+            "id": "3408",
+            "text": "Huyện Thăng Bình"
+        },
+        "514": {
+            "id": "3410",
+            "text": "Huyện Tiên Phước"
+        },
+        "515": {
+            "id": "3411",
+            "text": "Huyện Bắc Trà My"
+        },
+        "516": {
+            "id": "3415",
+            "text": "Huyện Nam Trà My"
+        },
+        "517": {
+            "id": "3409",
+            "text": "Huyện Núi Thành"
+        },
+        "518": {
+            "id": "3417",
+            "text": "Huyện Phú Ninh"
+        },
+        "519": {
+            "id": "3418",
+            "text": "Huyện Nông Sơn"
+        },
+        "522": {
+            "id": "3503",
+            "text": "Thành phố Quảng Ngãi"
+        },
+        "524": {
+            "id": "3501",
+            "text": "Huyện Bình Sơn"
+        },
+        "525": {
+            "id": "3512",
+            "text": "Huyện Trà Bồng"
+        },
+        "527": {
+            "id": "3502",
+            "text": "Huyện Sơn Tịnh"
+        },
+        "528": {
+            "id": "3504",
+            "text": "Huyện Tư Nghĩa"
+        },
+        "529": {
+            "id": "3510",
+            "text": "Huyện Sơn Hà"
+        },
+        "530": {
+            "id": "0116",
+            "text": "Thị xã Sơn Tây"
+        },
+        "531": {
+            "id": "3509",
+            "text": "Huyện Minh Long"
+        },
+        "532": {
+            "id": "3505",
+            "text": "Huyện Nghĩa Hành"
+        },
+        "533": {
+            "id": "3506",
+            "text": "Huyện Mộ Đức"
+        },
+        "534": {
+            "id": "3507",
+            "text": "Huyện Đức phổ"
+        },
+        "535": {
+            "id": "3508",
+            "text": "Huyện Ba Tơ"
+        },
+        "536": {
+            "id": "3514",
+            "text": "Huyện Lý Sơn"
+        },
+        "540": {
+            "id": "3701",
+            "text": "Thành phố Quy Nhơn"
+        },
+        "542": {
+            "id": "0307",
+            "text": "Huyện An Lão"
+        },
+        "543": {
+            "id": "3704",
+            "text": "Huyện Hoài Nhơn"
+        },
+        "544": {
+            "id": "3703",
+            "text": "Huyện Hoài ân"
+        },
+        "545": {
+            "id": "3705",
+            "text": "Huyện Phù Mỹ"
+        },
+        "546": {
+            "id": "3707",
+            "text": "Huyện Vĩnh Thạnh"
+        },
+        "547": {
+            "id": "3708",
+            "text": "Huyện Tây Sơn"
+        },
+        "548": {
+            "id": "3706",
+            "text": "Huyện Phù Cát"
+        },
+        "549": {
+            "id": "3710",
+            "text": "Thị xã An Nhơn"
+        },
+        "550": {
+            "id": "3711",
+            "text": "Huyện Tuy Phước"
+        },
+        "551": {
+            "id": "3709",
+            "text": "Huyện Vân Canh"
+        },
+        "555": {
+            "id": "3901",
+            "text": "Thành phố Tuy Hòa"
+        },
+        "557": {
+            "id": "3903",
+            "text": "Thị Xã Sông Cầu"
+        },
+        "558": {
+            "id": "3902",
+            "text": "Huyện Đồng Xuân"
+        },
+        "559": {
+            "id": "3904",
+            "text": "Huyện Tuy An"
+        },
+        "560": {
+            "id": "3905",
+            "text": "Huyện Sơn Hòa"
+        },
+        "561": {
+            "id": "3906",
+            "text": "Huyện Sông Hinh"
+        },
+        "562": {
+            "id": "3909",
+            "text": "Huyện Tây Hòa"
+        },
+        "563": {
+            "id": "3908",
+            "text": "Huyện Phú Hòa"
+        },
+        "564": {
+            "id": "3907",
+            "text": "Huyện Đông Hòa"
+        },
+        "568": {
+            "id": "4101",
+            "text": "Thành phố Nha Trang"
+        },
+        "569": {
+            "id": "4106",
+            "text": "Thành phố Cam Ranh"
+        },
+        "570": {
+            "id": "4109",
+            "text": "Huyện Cam Lâm"
+        },
+        "571": {
+            "id": "4102",
+            "text": "Huyện Vạn Ninh"
+        },
+        "572": {
+            "id": "4103",
+            "text": "Thị xã Ninh Hòa"
+        },
+        "573": {
+            "id": "4105",
+            "text": "Huyện Khánh Vĩnh"
+        },
+        "574": {
+            "id": "4104",
+            "text": "Huyện Diên Khánh"
+        },
+        "575": {
+            "id": "4107",
+            "text": "Huyện Khánh Sơn"
+        },
+        "576": {
+            "id": "4108",
+            "text": "Huyện đảo Trường Sa"
+        },
+        "582": {
+            "id": "4501",
+            "text": "Thành phố Phan Rang -Tháp Chàm"
+        },
+        "584": {
+            "id": "4505",
+            "text": "Huyện Bác ái"
+        },
+        "585": {
+            "id": "4502",
+            "text": "Huyện Ninh Sơn"
+        },
+        "586": {
+            "id": "4503",
+            "text": "Huyện Ninh Hải"
+        },
+        "587": {
+            "id": "4504",
+            "text": "Huyện Ninh Phước"
+        },
+        "588": {
+            "id": "4506",
+            "text": "Huyện Thuận Bắc"
+        },
+        "589": {
+            "id": "4507",
+            "text": "Huyện Thuận Nam"
+        },
+        "593": {
+            "id": "4701",
+            "text": "Thành phố Phan Thiết"
+        },
+        "594": {
+            "id": "4710",
+            "text": "Thị xã La Gi"
+        },
+        "595": {
+            "id": "4702",
+            "text": "Huyện Tuy Phong"
+        },
+        "596": {
+            "id": "4703",
+            "text": "Huyện Bắc Bình"
+        },
+        "597": {
+            "id": "4704",
+            "text": "Huyện Hàm Thuận Bắc"
+        },
+        "598": {
+            "id": "4705",
+            "text": "Huyện Hàm Thuận Nam"
+        },
+        "599": {
+            "id": "4708",
+            "text": "Huyện Tánh Linh"
+        },
+        "600": {
+            "id": "4707",
+            "text": "Huyện Đức Linh"
+        },
+        "601": {
+            "id": "4706",
+            "text": "Huyện Hàm Tân"
+        },
+        "602": {
+            "id": "4709",
+            "text": "Huyện đảo Phú Quý"
+        },
+        "608": {
+            "id": "3601",
+            "text": "Thành phố Kon Tum"
+        },
+        "610": {
+            "id": "3602",
+            "text": "Huyện Đăk Glei"
+        },
+        "611": {
+            "id": "3603",
+            "text": "Huyện Ngọc Hồi"
+        },
+        "612": {
+            "id": "3604",
+            "text": "Huyện Đăk Tô"
+        },
+        "613": {
+            "id": "3606",
+            "text": "Huyện Kon Plông"
+        },
+        "614": {
+            "id": "3608",
+            "text": "Huyện Kon Rẫy"
+        },
+        "615": {
+            "id": "3607",
+            "text": "Huyện Đăk Hà"
+        },
+        "616": {
+            "id": "3605",
+            "text": "Huyện Sa Thầy"
+        },
+        "617": {
+            "id": "3609",
+            "text": "Huyện Tu Mơ Rông"
+        },
+        "618": {
+            "id": "3610",
+            "text": "Huyện IA H'DRAI"
+        },
+        "622": {
+            "id": "3801",
+            "text": "Thành phố Pleiku"
+        },
+        "623": {
+            "id": "3805",
+            "text": "Thị xã An Khê"
+        },
+        "624": {
+            "id": "3810",
+            "text": "Thị xã Ayun Pa"
+        },
+        "625": {
+            "id": "3804",
+            "text": "Huyện KBang"
+        },
+        "626": {
+            "id": "3813",
+            "text": "Huyện Đak Đoa"
+        },
+        "627": {
+            "id": "3802",
+            "text": "Huyện Chư Păh"
+        },
+        "628": {
+            "id": "3812",
+            "text": "Huyện Ia Grai"
+        },
+        "629": {
+            "id": "3803",
+            "text": "Huyện Mang Yang"
+        },
+        "630": {
+            "id": "3806",
+            "text": "Huyện Kông Chro"
+        },
+        "631": {
+            "id": "3807",
+            "text": "Huyện Đức Cơ"
+        },
+        "632": {
+            "id": "3808",
+            "text": "Huyện Chư Prông"
+        },
+        "633": {
+            "id": "3809",
+            "text": "Huyện Chư Sê"
+        },
+        "634": {
+            "id": "3815",
+            "text": "Huyện Đak Pơ"
+        },
+        "635": {
+            "id": "3814",
+            "text": "Huyện Ia Pa"
+        },
+        "637": {
+            "id": "3811",
+            "text": "Huyện Krông Pa"
+        },
+        "638": {
+            "id": "3816",
+            "text": "Huyện Phú Thiện"
+        },
+        "639": {
+            "id": "3817",
+            "text": "Huyện Chư Pưh"
+        },
+        "643": {
+            "id": "4001",
+            "text": "Thành phố Buôn Ma Thuột"
+        },
+        "644": {
+            "id": "4015",
+            "text": "Thị Xã Buôn Hồ"
+        },
+        "645": {
+            "id": "4002",
+            "text": "Huyện Ea H'Leo"
+        },
+        "646": {
+            "id": "4005",
+            "text": "Huyện Ea Súp"
+        },
+        "647": {
+            "id": "4013",
+            "text": "Huyện Buôn Đôn"
+        },
+        "648": {
+            "id": "4006",
+            "text": "Huyện Cư M'gar"
+        },
+        "649": {
+            "id": "4003",
+            "text": "Huyện Krông Buk"
+        },
+        "650": {
+            "id": "4004",
+            "text": "Huyện Krông Năng"
+        },
+        "651": {
+            "id": "4008",
+            "text": "Huyện Ea Kar"
+        },
+        "652": {
+            "id": "4009",
+            "text": "Huyện M'Đrắk"
+        },
+        "653": {
+            "id": "4011",
+            "text": "Huyện Krông Bông"
+        },
+        "654": {
+            "id": "4007",
+            "text": "Huyện Krông Pắc"
+        },
+        "655": {
+            "id": "4010",
+            "text": "Huyện Krông Ana"
+        },
+        "656": {
+            "id": "4012",
+            "text": "Huyện Lắk"
+        },
+        "657": {
+            "id": "4014",
+            "text": "Huyện Cư Kuin"
+        },
+        "660": {
+            "id": "6301",
+            "text": "Thị xã Gia Nghĩa"
+        },
+        "661": {
+            "id": "6307",
+            "text": "Huyện Đăk GLong"
+        },
+        "662": {
+            "id": "6304",
+            "text": "Huyện Cư Jút"
+        },
+        "663": {
+            "id": "6303",
+            "text": "Huyện Đăk Mil"
+        },
+        "664": {
+            "id": "6306",
+            "text": "Huyện Krông Nô"
+        },
+        "665": {
+            "id": "6305",
+            "text": "Huyện Đăk Song"
+        },
+        "666": {
+            "id": "6302",
+            "text": "Huyện Đăk R'Lấp"
+        },
+        "667": {
+            "id": "6308",
+            "text": "Huyện Tuy Đức"
+        },
+        "672": {
+            "id": "4201",
+            "text": "Thành phố Đà Lạt"
+        },
+        "673": {
+            "id": "4202",
+            "text": "Thành phố Bảo Lộc"
+        },
+        "674": {
+            "id": "4212",
+            "text": "Huyện Đam Rông"
+        },
+        "675": {
+            "id": "4206",
+            "text": "Huyện Lạc Dương"
+        },
+        "676": {
+            "id": "4210",
+            "text": "Huyện Lâm Hà"
+        },
+        "677": {
+            "id": "4205",
+            "text": "Huyện Đơn Dương"
+        },
+        "678": {
+            "id": "4203",
+            "text": "Huyện Đức Trọng"
+        },
+        "679": {
+            "id": "4204",
+            "text": "Huyện Di Linh"
+        },
+        "680": {
+            "id": "0612",
+            "text": "Huyện Bảo Lâm"
+        },
+        "681": {
+            "id": "4207",
+            "text": "Huyện Đạ Huoai"
+        },
+        "682": {
+            "id": "4208",
+            "text": "Huyện Đạ Tẻh"
+        },
+        "683": {
+            "id": "4209",
+            "text": "Huyện Cát Tiên"
+        },
+        "688": {
+            "id": "4307",
+            "text": "Thị xã Phước Long"
+        },
+        "689": {
+            "id": "4301",
+            "text": "Thành phố Đồng Xoài"
+        },
+        "690": {
+            "id": "4304",
+            "text": "Thị xã Bình Long"
+        },
+        "691": {
+            "id": "4310",
+            "text": "Huyện Bù Gia Mập"
+        },
+        "692": {
+            "id": "4305",
+            "text": "Huyện Lộc Ninh"
+        },
+        "693": {
+            "id": "4306",
+            "text": "Huyện Bù Đốp"
+        },
+        "694": {
+            "id": "4309",
+            "text": "Huyện Hớn Quản"
+        },
+        "695": {
+            "id": "4302",
+            "text": "Huyện Đồng Phú"
+        },
+        "696": {
+            "id": "4308",
+            "text": "Huyện Bù Đăng"
+        },
+        "697": {
+            "id": "4303",
+            "text": "Huyện Chơn Thành"
+        },
+        "698": {
+            "id": "4311",
+            "text": "Huyện Phú Riềng"
+        },
+        "703": {
+            "id": "4601",
+            "text": "Thành phố Tây Ninh"
+        },
+        "705": {
+            "id": "4602",
+            "text": "Huyện Tân Biên"
+        },
+        "706": {
+            "id": "4603",
+            "text": "Huyện Tân Châu"
+        },
+        "707": {
+            "id": "4604",
+            "text": "Huyện Dương Minh Châu"
+        },
+        "708": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "709": {
+            "id": "4606",
+            "text": "Huyện Hòa Thành"
+        },
+        "710": {
+            "id": "4608",
+            "text": "Huyện Gò Dầu"
+        },
+        "711": {
+            "id": "4607",
+            "text": "Huyện Bến Cầu"
+        },
+        "712": {
+            "id": "4609",
+            "text": "Huyện Trảng Bàng"
+        },
+        "718": {
+            "id": "4401",
+            "text": "Thành phố Thủ Dầu Một"
+        },
+        "719": {
+            "id": "4409",
+            "text": "Huyện Bàu Bàng"
+        },
+        "720": {
+            "id": "4407",
+            "text": "Huyện Dầu Tiếng"
+        },
+        "721": {
+            "id": "4402",
+            "text": "Thị xã Bến Cát"
+        },
+        "722": {
+            "id": "4406",
+            "text": "Huyện Phú Giáo"
+        },
+        "723": {
+            "id": "0707",
+            "text": "Huyện Tân Uyên"
+        },
+        "724": {
+            "id": "4405",
+            "text": "Thị xã Dĩ An"
+        },
+        "725": {
+            "id": "4404",
+            "text": "Thị xã Thuận An"
+        },
+        "726": {
+            "id": "4408",
+            "text": "Huyện Bắc Tân Uyên"
+        },
+        "731": {
+            "id": "4801",
+            "text": "Thành phố Biên Hòa"
+        },
+        "732": {
+            "id": "4806",
+            "text": "Thành phố Long Khánh"
+        },
+        "734": {
+            "id": "0215",
+            "text": "Quận Tân Phú"
+        },
+        "735": {
+            "id": "4802",
+            "text": "Huyện Vĩnh Cửu"
+        },
+        "736": {
+            "id": "4804",
+            "text": "Huyện Định Quán"
+        },
+        "737": {
+            "id": "4810",
+            "text": "Huyện Trảng Bom"
+        },
+        "738": {
+            "id": "4805",
+            "text": "Huyện Thống Nhất"
+        },
+        "739": {
+            "id": "4811",
+            "text": "Huyện Cẩm Mỹ"
+        },
+        "740": {
+            "id": "4808",
+            "text": "Huyện Long Thành"
+        },
+        "741": {
+            "id": "4807",
+            "text": "Huyện Xuân Lộc"
+        },
+        "742": {
+            "id": "4809",
+            "text": "Huyện Nhơn Trạch"
+        },
+        "747": {
+            "id": "5201",
+            "text": "Thành phố Vũng Tàu"
+        },
+        "748": {
+            "id": "5202",
+            "text": "Thành phố Bà Rịa"
+        },
+        "750": {
+            "id": "5207",
+            "text": "Huyện Châu Đức"
+        },
+        "751": {
+            "id": "5203",
+            "text": "Huyện Xuyên Mộc"
+        },
+        "752": {
+            "id": "5204",
+            "text": "Huyện Long Điền"
+        },
+        "753": {
+            "id": "5208",
+            "text": "Huyện Đất Đỏ"
+        },
+        "754": {
+            "id": "5206",
+            "text": "Thị xã Phú Mỹ"
+        },
+        "755": {
+            "id": "5205",
+            "text": "Huyện Côn Đảo"
+        },
+        "760": {
+            "id": "0201",
+            "text": "Quận 1"
+        },
+        "761": {
+            "id": "0212",
+            "text": "Quận 12"
+        },
+        "764": {
+            "id": "0213",
+            "text": "Quận Gò Vấp"
+        },
+        "765": {
+            "id": "0216",
+            "text": "Quận Bình Thạnh"
+        },
+        "766": {
+            "id": "0214",
+            "text": "Quận Tân Bình"
+        },
+        "767": {
+            "id": "0215",
+            "text": "Quận Tân Phú"
+        },
+        "768": {
+            "id": "0217",
+            "text": "Quận Phú Nhuận"
+        },
+        "769": {
+            "id": "0218",
+            "text": "Quận Thủ Đức"
+        },
+        "770": {
+            "id": "0203",
+            "text": "Quận 3"
+        },
+        "771": {
+            "id": "0210",
+            "text": "Quận 10"
+        },
+        "772": {
+            "id": "0211",
+            "text": "Quận 11"
+        },
+        "773": {
+            "id": "0204",
+            "text": "Quận 4"
+        },
+        "774": {
+            "id": "0205",
+            "text": "Quận 5"
+        },
+        "775": {
+            "id": "0206",
+            "text": "Quận 6"
+        },
+        "776": {
+            "id": "0208",
+            "text": "Quận 8"
+        },
+        "777": {
+            "id": "0219",
+            "text": "Quận Bình Tân"
+        },
+        "778": {
+            "id": "0207",
+            "text": "Quận 7"
+        },
+        "783": {
+            "id": "0221",
+            "text": "Huyện Củ Chi"
+        },
+        "784": {
+            "id": "0222",
+            "text": "Huyện Hóc Môn"
+        },
+        "785": {
+            "id": "0220",
+            "text": "Huyện Bình Chánh"
+        },
+        "786": {
+            "id": "0223",
+            "text": "Huyện Nhà Bè"
+        },
+        "787": {
+            "id": "0224",
+            "text": "Huyện Cần Giờ"
+        },
+        "794": {
+            "id": "4901",
+            "text": "Thành phố Tân An"
+        },
+        "795": {
+            "id": "4915",
+            "text": "Thị xã Kiến Tường"
+        },
+        "796": {
+            "id": "4914",
+            "text": "Huyện Tân Hưng"
+        },
+        "797": {
+            "id": "4902",
+            "text": "Huyện Vĩnh Hưng"
+        },
+        "798": {
+            "id": "4903",
+            "text": "Huyện Mộc Hóa"
+        },
+        "799": {
+            "id": "4904",
+            "text": "Huyện Tân Thạnh"
+        },
+        "800": {
+            "id": "4905",
+            "text": "Huyện Thạnh Hóa"
+        },
+        "801": {
+            "id": "4906",
+            "text": "Huyện Đức Huệ"
+        },
+        "802": {
+            "id": "4907",
+            "text": "Huyện Đức Hòa"
+        },
+        "803": {
+            "id": "4908",
+            "text": "Huyện Bến Lức"
+        },
+        "804": {
+            "id": "4909",
+            "text": "Huyện Thủ Thừa"
+        },
+        "805": {
+            "id": "4911",
+            "text": "Huyện Tân Trụ"
+        },
+        "806": {
+            "id": "4912",
+            "text": "Huyện Cần Đước"
+        },
+        "807": {
+            "id": "4913",
+            "text": "Huyện Cần Giuộc"
+        },
+        "808": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "815": {
+            "id": "5301",
+            "text": "Thành phố Mỹ Tho"
+        },
+        "816": {
+            "id": "5302",
+            "text": "Thị xã Gò Công"
+        },
+        "817": {
+            "id": "5304",
+            "text": "Huyện Cai Lậy"
+        },
+        "818": {
+            "id": "5309",
+            "text": "Huyện Tân Phước"
+        },
+        "819": {
+            "id": "5303",
+            "text": "Huyện Cái Bè"
+        },
+        "820": {
+            "id": "5304",
+            "text": "Huyện Cai Lậy"
+        },
+        "821": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "822": {
+            "id": "5306",
+            "text": "Huyện Chợ Gạo"
+        },
+        "823": {
+            "id": "5307",
+            "text": "Huyện Gò Công Tây"
+        },
+        "824": {
+            "id": "5308",
+            "text": "Huyện Gò Công Đông"
+        },
+        "825": {
+            "id": "5310",
+            "text": "Huyện Tân Phú Đông"
+        },
+        "829": {
+            "id": "5601",
+            "text": "Thành phố Bến Tre"
+        },
+        "831": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "832": {
+            "id": "5603",
+            "text": "Huyện Chợ Lách"
+        },
+        "833": {
+            "id": "5609",
+            "text": "Huyện Mỏ Cày Nam"
+        },
+        "834": {
+            "id": "5605",
+            "text": "Huyện Giồng Trôm"
+        },
+        "835": {
+            "id": "5606",
+            "text": "Huyện Bình Đại"
+        },
+        "836": {
+            "id": "5607",
+            "text": "Huyện Ba Tri"
+        },
+        "837": {
+            "id": "5608",
+            "text": "Huyện Thạnh Phú"
+        },
+        "838": {
+            "id": "5604",
+            "text": "Huyện Mỏ Cày Bắc"
+        },
+        "842": {
+            "id": "5801",
+            "text": "Thành phố Trà Vinh"
+        },
+        "844": {
+            "id": "5802",
+            "text": "Huyện Càng Long"
+        },
+        "845": {
+            "id": "5803",
+            "text": "Huyện Cầu Kè"
+        },
+        "846": {
+            "id": "5804",
+            "text": "Huyện Tiểu Cần"
+        },
+        "847": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "848": {
+            "id": "5807",
+            "text": "Huyện Cầu Ngang"
+        },
+        "849": {
+            "id": "5806",
+            "text": "Huyện Trà Cú"
+        },
+        "850": {
+            "id": "5808",
+            "text": "Huyện Duyên Hải"
+        },
+        "851": {
+            "id": "5808",
+            "text": "Huyện Duyên Hải"
+        },
+        "855": {
+            "id": "5701",
+            "text": "Thành phố Vĩnh Long"
+        },
+        "857": {
+            "id": "5702",
+            "text": "Huyện Long Hồ"
+        },
+        "858": {
+            "id": "5703",
+            "text": "Huyện Mang Thít"
+        },
+        "859": {
+            "id": "5707",
+            "text": "Huyện Vũng Liêm"
+        },
+        "860": {
+            "id": "5705",
+            "text": "Huyện Tam Bình"
+        },
+        "861": {
+            "id": "5704",
+            "text": "Thị xã Bình Minh"
+        },
+        "862": {
+            "id": "5706",
+            "text": "Huyện Trà ôn"
+        },
+        "863": {
+            "id": "0219",
+            "text": "Quận Bình Tân"
+        },
+        "866": {
+            "id": "5005",
+            "text": "Thành phố Cao Lãnh"
+        },
+        "867": {
+            "id": "5004",
+            "text": "Thành phố Sa Đéc"
+        },
+        "868": {
+            "id": "5010",
+            "text": "Thị xã Hồng Ngự"
+        },
+        "869": {
+            "id": "5012",
+            "text": "Huyện Tân Hồng"
+        },
+        "870": {
+            "id": "5010",
+            "text": "Thị xã Hồng Ngự"
+        },
+        "871": {
+            "id": "1511",
+            "text": "Huyện Tam Nông"
+        },
+        "872": {
+            "id": "5007",
+            "text": "Huyện Tháp Mười"
+        },
+        "873": {
+            "id": "5005",
+            "text": "Thành phố Cao Lãnh"
+        },
+        "874": {
+            "id": "5009",
+            "text": "Huyện Thanh Bình"
+        },
+        "875": {
+            "id": "5003",
+            "text": "Huyện Lấp Vò"
+        },
+        "876": {
+            "id": "5002",
+            "text": "Huyện Lai Vung"
+        },
+        "877": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "883": {
+            "id": "5101",
+            "text": "Thành phố Long Xuyên"
+        },
+        "884": {
+            "id": "5102",
+            "text": "Thành phố Châu Đốc"
+        },
+        "886": {
+            "id": "5103",
+            "text": "Huyện An Phú"
+        },
+        "887": {
+            "id": "4603",
+            "text": "Huyện Tân Châu"
+        },
+        "888": {
+            "id": "5105",
+            "text": "Huyện Phú Tân"
+        },
+        "889": {
+            "id": "5108",
+            "text": "Huyện Châu Phú"
+        },
+        "890": {
+            "id": "5106",
+            "text": "Huyện Tịnh Biên"
+        },
+        "891": {
+            "id": "5107",
+            "text": "Huyện Tri Tôn"
+        },
+        "892": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "893": {
+            "id": "1107",
+            "text": "Huyện Chợ Mới"
+        },
+        "894": {
+            "id": "5111",
+            "text": "Huyện Thoại Sơn"
+        },
+        "899": {
+            "id": "5401",
+            "text": "Thành phố Rạch Giá"
+        },
+        "900": {
+            "id": "5402",
+            "text": "Thành phố Hà Tiên"
+        },
+        "902": {
+            "id": "5403",
+            "text": "Huyện Kiên Lương"
+        },
+        "903": {
+            "id": "5404",
+            "text": "Huyện Hòn Đất"
+        },
+        "904": {
+            "id": "5405",
+            "text": "Huyện Tân Hiệp"
+        },
+        "905": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "906": {
+            "id": "5407",
+            "text": "Huyện Giồng Riềng"
+        },
+        "907": {
+            "id": "5408",
+            "text": "Huyện Gò Quao"
+        },
+        "908": {
+            "id": "5409",
+            "text": "Huyện An Biên"
+        },
+        "909": {
+            "id": "5410",
+            "text": "Huyện An Minh"
+        },
+        "910": {
+            "id": "5411",
+            "text": "Huyện Vĩnh Thuận"
+        },
+        "911": {
+            "id": "5412",
+            "text": "Huyện Phú Quốc"
+        },
+        "912": {
+            "id": "5413",
+            "text": "Huyện Kiên Hải"
+        },
+        "913": {
+            "id": "5414",
+            "text": "Huyện U Minh Thượng"
+        },
+        "914": {
+            "id": "5415",
+            "text": "Huyện Giang Thành"
+        },
+        "916": {
+            "id": "5501",
+            "text": "Quận Ninh Kiều"
+        },
+        "917": {
+            "id": "5504",
+            "text": "Quận Ô Môn"
+        },
+        "918": {
+            "id": "5502",
+            "text": "Quận Bình Thủy"
+        },
+        "919": {
+            "id": "5503",
+            "text": "Quận Cái Răng"
+        },
+        "923": {
+            "id": "5508",
+            "text": "Quận Thốt Nốt"
+        },
+        "924": {
+            "id": "3707",
+            "text": "Huyện Vĩnh Thạnh"
+        },
+        "925": {
+            "id": "5506",
+            "text": "Huyện Cờ Đỏ"
+        },
+        "926": {
+            "id": "3302",
+            "text": "Huyện Phong Điền"
+        },
+        "927": {
+            "id": "5509",
+            "text": "Huyện Thới Lai"
+        },
+        "930": {
+            "id": "6401",
+            "text": "Thành phố Vị Thanh"
+        },
+        "931": {
+            "id": "6407",
+            "text": "Thị xã Ngã Bảy"
+        },
+        "932": {
+            "id": "6406",
+            "text": "Huyện Châu Thành A"
+        },
+        "933": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "934": {
+            "id": "6404",
+            "text": "Huyện Phụng Hiệp"
+        },
+        "935": {
+            "id": "6402",
+            "text": "Huyện Vị Thủy"
+        },
+        "936": {
+            "id": "6403",
+            "text": "Huyện Long Mỹ"
+        },
+        "937": {
+            "id": "6403",
+            "text": "Huyện Long Mỹ"
+        },
+        "941": {
+            "id": "5901",
+            "text": "Thành phố Sóc Trăng"
+        },
+        "942": {
+            "id": "4605",
+            "text": "Huyện Châu Thành"
+        },
+        "943": {
+            "id": "5902",
+            "text": "Huyện Kế Sách"
+        },
+        "944": {
+            "id": "5903",
+            "text": "Huyện Mỹ Tú"
+        },
+        "945": {
+            "id": "5908",
+            "text": "Huyện Cù Lao Dung"
+        },
+        "946": {
+            "id": "5906",
+            "text": "Huyện Long Phú"
+        },
+        "947": {
+            "id": "5904",
+            "text": "Huyện Mỹ Xuyên"
+        },
+        "948": {
+            "id": "5909",
+            "text": "Thị xã Ngã Năm"
+        },
+        "949": {
+            "id": "5905",
+            "text": "Huyện Thạnh Trị"
+        },
+        "950": {
+            "id": "5907",
+            "text": "Thị xã Vĩnh Châu"
+        },
+        "951": {
+            "id": "5911",
+            "text": "Huyện Trần Đề"
+        },
+        "954": {
+            "id": "6001",
+            "text": "Thành phố Bạc Liêu"
+        },
+        "956": {
+            "id": "6003",
+            "text": "Huyện Hồng Dân"
+        },
+        "957": {
+            "id": "4307",
+            "text": "Thị xã Phước Long"
+        },
+        "958": {
+            "id": "6002",
+            "text": "Huyện Vĩnh Lợi"
+        },
+        "959": {
+            "id": "6004",
+            "text": "Thị xã Giá Rai"
+        },
+        "960": {
+            "id": "6006",
+            "text": "Huyện Đông Hải"
+        },
+        "961": {
+            "id": "2301",
+            "text": "Thành phố Hòa Bình"
+        },
+        "964": {
+            "id": "6101",
+            "text": "Thành phố Cà Mau"
+        },
+        "966": {
+            "id": "6103",
+            "text": "Huyện U Minh"
+        },
+        "967": {
+            "id": "6102",
+            "text": "Huyện Thới Bình"
+        },
+        "968": {
+            "id": "6104",
+            "text": "Huyện Trần Văn Thời"
+        },
+        "969": {
+            "id": "6105",
+            "text": "Huyện Cái Nước"
+        },
+        "970": {
+            "id": "6106",
+            "text": "Huyện Đầm Dơi"
+        },
+        "971": {
+            "id": "6108",
+            "text": "Huyện Năm Căn"
+        },
+        "972": {
+            "id": "5105",
+            "text": "Huyện Phú Tân"
+        },
+        "973": {
+            "id": "6107",
+            "text": "Huyện Ngọc Hiển"
+        },
+        "467": {
+            "id": "3209",
+            "text": "Huyện Đa Krông"
+        },
+        "1305": {
+            "id": "137",
+            "text": "Huyện Mù Căng Chải"
+        },
+        "notFound": [
+            {
+                "id": "049",
+                "text": "Huyện Quảng Hòa"
+            },
+            {
+                "id": "407",
+                "text": "Thị xã Nghi Sơn"
+            }
+        ],
+        "001": {
+            "id": "0101",
+            "text": "Quận Ba Đình"
+        },
+        "002": {
+            "id": "0102",
+            "text": "Quận Hoàn Kiếm"
+        },
+        "003": {
+            "id": "0105",
+            "text": "Quận Tây Hồ"
+        },
+        "004": {
+            "id": "0109",
+            "text": "Quận Long Biên"
+        },
+        "005": {
+            "id": "0106",
+            "text": "Quận Cầu Giấy"
+        },
+        "006": {
+            "id": "0104",
+            "text": "Quận Đống Đa"
+        },
+        "007": {
+            "id": "0103",
+            "text": "Quận Hai Bà Trưng"
+        },
+        "008": {
+            "id": "0108",
+            "text": "Quận Hoàng Mai"
+        },
+        "009": {
+            "id": "0107",
+            "text": "Quận Thanh Xuân"
+        },
+        "016": {
+            "id": "0114",
+            "text": "Huyện Sóc Sơn"
+        },
+        "017": {
+            "id": "0113",
+            "text": "Huyện Đông Anh"
+        },
+        "018": {
+            "id": "0112",
+            "text": "Huyện Gia Lâm"
+        },
+        "019": {
+            "id": "0130",
+            "text": "Quận Nam Từ Liêm"
+        },
+        "020": {
+            "id": "0111",
+            "text": "Huyện Thanh Trì"
+        },
+        "021": {
+            "id": "0110",
+            "text": "Quận Bắc Từ Liêm"
+        },
+        "024": {
+            "id": "0501",
+            "text": "Thành phố Hà Giang"
+        },
+        "026": {
+            "id": "0502",
+            "text": "Huyện Đồng Văn"
+        },
+        "027": {
+            "id": "0503",
+            "text": "Huyện Mèo Vạc"
+        },
+        "028": {
+            "id": "0504",
+            "text": "Huyện Yên Minh"
+        },
+        "029": {
+            "id": "0505",
+            "text": "Huyện Quản Bạ"
+        },
+        "030": {
+            "id": "0506",
+            "text": "Huyện Vị Xuyên"
+        },
+        "031": {
+            "id": "0507",
+            "text": "Huyện Bắc Mê"
+        },
+        "032": {
+            "id": "0508",
+            "text": "Huyện Hoàng Su Phì"
+        },
+        "033": {
+            "id": "0509",
+            "text": "Huyện Xín Mần"
+        },
+        "034": {
+            "id": "0510",
+            "text": "Huyện Bắc Quang"
+        },
+        "035": {
+            "id": "0511",
+            "text": "Huyện Quang Bình"
+        },
+        "040": {
+            "id": "0601",
+            "text": "Thành phố Cao Bằng"
+        },
+        "042": {
+            "id": "0612",
+            "text": "Huyện Bảo Lâm"
+        },
+        "043": {
+            "id": "0602",
+            "text": "Huyện Bảo Lạc"
+        },
+        "045": {
+            "id": "0604",
+            "text": "Huyện Hà Quảng"
+        },
+        "047": {
+            "id": "0606",
+            "text": "Huyện Trùng Khánh"
+        },
+        "048": {
+            "id": "0611",
+            "text": "Huyện Hạ Lang"
+        },
+        "051": {
+            "id": "0608",
+            "text": "Huyện Hòa An"
+        },
+        "052": {
+            "id": "0607",
+            "text": "Huyện Nguyên Bình"
+        },
+        "053": {
+            "id": "0610",
+            "text": "Huyện Thạch An"
+        },
+        "058": {
+            "id": "1101",
+            "text": "Thành phố Bắc Kạn"
+        },
+        "060": {
+            "id": "1108",
+            "text": "Huyện Pác Nặm"
+        },
+        "061": {
+            "id": "1106",
+            "text": "Huyện Ba Bể"
+        },
+        "062": {
+            "id": "1105",
+            "text": "Huyện Ngân Sơn"
+        },
+        "063": {
+            "id": "1103",
+            "text": "Huyện Bạch Thông"
+        },
+        "064": {
+            "id": "1102",
+            "text": "Huyện Chợ Đồn"
+        },
+        "065": {
+            "id": "1107",
+            "text": "Huyện Chợ Mới"
+        },
+        "066": {
+            "id": "1104",
+            "text": "Huyện Na Rì"
+        },
+        "070": {
+            "id": "0901",
+            "text": "Thành phố Tuyên Quang"
+        },
+        "071": {
+            "id": "0902",
+            "text": "Huyện Lâm Bình"
+        },
+        "072": {
+            "id": "0903",
+            "text": "Huyện Na Hang"
+        },
+        "073": {
+            "id": "0904",
+            "text": "Huyện Chiêm Hóa"
+        },
+        "074": {
+            "id": "0905",
+            "text": "Huyện Hàm Yên"
+        },
+        "075": {
+            "id": "0906",
+            "text": "Huyện Yên Sơn"
+        },
+        "076": {
+            "id": "0907",
+            "text": "Huyện Sơn Dương"
+        },
+        "080": {
+            "id": "0805",
+            "text": "Thành phố Lào Cai"
+        },
+        "082": {
+            "id": "0803",
+            "text": "Huyện Bát Xát"
+        },
+        "083": {
+            "id": "0806",
+            "text": "Huyện Mường Khương"
+        },
+        "084": {
+            "id": "0808",
+            "text": "Huyện Si Ma Cai"
+        },
+        "085": {
+            "id": "0804",
+            "text": "Huyện Bắc Hà"
+        },
+        "086": {
+            "id": "0801",
+            "text": "Huyện Bảo Thắng"
+        },
+        "087": {
+            "id": "0802",
+            "text": "Huyện Bảo Yên"
+        },
+        "088": {
+            "id": "0807",
+            "text": "Huyện Sa Pa"
+        },
+        "089": {
+            "id": "0809",
+            "text": "Huyện Văn Bàn"
+        },
+        "094": {
+            "id": "6201",
+            "text": "Thành phố Điện Biên Phủ"
+        },
+        "095": {
+            "id": "6202",
+            "text": "Thị xã Mường Lay"
+        },
+        "096": {
+            "id": "6208",
+            "text": "Huyện Mường Nhé"
+        },
+        "097": {
+            "id": "6205",
+            "text": "Huyện Mường Chà"
+        },
+        "098": {
+            "id": "6206",
+            "text": "Huyện Tủa Chùa"
+        },
+        "099": {
+            "id": "6204",
+            "text": "Huyện Tuần Giáo"
+        }
+    },
+    "maTinhThuongTru": {
+        "10": {
+            "id": "08",
+            "text": "Lào Cai"
+        },
+        "11": {
+            "id": "62",
+            "text": "Điện Biên"
+        },
+        "12": {
+            "id": "07",
+            "text": "Lai Châu"
+        },
+        "14": {
+            "id": "14",
+            "text": "Sơn La"
+        },
+        "15": {
+            "id": "13",
+            "text": "Yên Bái"
+        },
+        "17": {
+            "id": "23",
+            "text": "Hoà Bình"
+        },
+        "19": {
+            "id": "12",
+            "text": "Thái Nguyên"
+        },
+        "20": {
+            "id": "10",
+            "text": "Lạng Sơn"
+        },
+        "22": {
+            "id": "17",
+            "text": "Quảng Ninh"
+        },
+        "24": {
+            "id": "18",
+            "text": "Bắc Giang"
+        },
+        "25": {
+            "id": "15",
+            "text": "Phú Thọ"
+        },
+        "26": {
+            "id": "16",
+            "text": "Vĩnh Phúc"
+        },
+        "27": {
+            "id": "19",
+            "text": "Bắc Ninh"
+        },
+        "30": {
+            "id": "21",
+            "text": "Hải Dương"
+        },
+        "31": {
+            "id": "03",
+            "text": "Hải Phòng"
+        },
+        "33": {
+            "id": "22",
+            "text": "Hưng Yên"
+        },
+        "34": {
+            "id": "26",
+            "text": "Thái Bình"
+        },
+        "35": {
+            "id": "24",
+            "text": "Hà Nam"
+        },
+        "36": {
+            "id": "25",
+            "text": "Nam Định"
+        },
+        "37": {
+            "id": "27",
+            "text": "Ninh Bình"
+        },
+        "38": {
+            "id": "28",
+            "text": "Thanh Hóa"
+        },
+        "40": {
+            "id": "29",
+            "text": "Nghệ An"
+        },
+        "42": {
+            "id": "30",
+            "text": "Hà Tĩnh"
+        },
+        "44": {
+            "id": "31",
+            "text": "Quảng Bình"
+        },
+        "45": {
+            "id": "32",
+            "text": "Quảng Trị"
+        },
+        "46": {
+            "id": "33",
+            "text": "Thừa Thiên Huế"
+        },
+        "48": {
+            "id": "04",
+            "text": "Đà Nẵng"
+        },
+        "49": {
+            "id": "34",
+            "text": "Quảng Nam"
+        },
+        "51": {
+            "id": "35",
+            "text": "Quảng Ngãi"
+        },
+        "52": {
+            "id": "37",
+            "text": "Bình Định"
+        },
+        "54": {
+            "id": "39",
+            "text": "Phú Yên"
+        },
+        "56": {
+            "id": "41",
+            "text": "Khánh Hòa"
+        },
+        "58": {
+            "id": "45",
+            "text": "Ninh Thuận"
+        },
+        "60": {
+            "id": "47",
+            "text": "Bình Thuận"
+        },
+        "62": {
+            "id": "36",
+            "text": "Kon Tum"
+        },
+        "64": {
+            "id": "38",
+            "text": "Gia Lai"
+        },
+        "66": {
+            "id": "40",
+            "text": "Đăk Lăk"
+        },
+        "67": {
+            "id": "63",
+            "text": "Đăk Nông"
+        },
+        "68": {
+            "id": "42",
+            "text": "Lâm Đồng"
+        },
+        "70": {
+            "id": "43",
+            "text": "Bình Phước"
+        },
+        "72": {
+            "id": "46",
+            "text": "Tây Ninh"
+        },
+        "74": {
+            "id": "44",
+            "text": "Bình Dương"
+        },
+        "75": {
+            "id": "48",
+            "text": "Đồng Nai"
+        },
+        "77": {
+            "id": "52",
+            "text": "Bà Rịa - Vũng Tàu"
+        },
+        "79": {
+            "id": "02",
+            "text": "TP. Hồ Chí Minh"
+        },
+        "80": {
+            "id": "49",
+            "text": "Long An"
+        },
+        "82": {
+            "id": "53",
+            "text": "Tiền Giang"
+        },
+        "83": {
+            "id": "56",
+            "text": "Bến Tre"
+        },
+        "84": {
+            "id": "58",
+            "text": "Trà Vinh"
+        },
+        "86": {
+            "id": "57",
+            "text": "Vĩnh Long"
+        },
+        "87": {
+            "id": "50",
+            "text": "Đồng Tháp"
+        },
+        "89": {
+            "id": "51",
+            "text": "An Giang"
+        },
+        "91": {
+            "id": "54",
+            "text": "Kiên Giang"
+        },
+        "92": {
+            "id": "55",
+            "text": "Cần Thơ"
+        },
+        "93": {
+            "id": "64",
+            "text": "Hậu Giang"
+        },
+        "94": {
+            "id": "59",
+            "text": "Sóc Trăng"
+        },
+        "95": {
+            "id": "60",
+            "text": "Bạc Liêu"
+        },
+        "96": {
+            "id": "61",
+            "text": "Cà Mau"
+        },
+        "notFound": [],
+        "01": {
+            "id": "01",
+            "text": "Hà Nội"
+        },
+        "02": {
+            "id": "05",
+            "text": "Hà Giang"
+        },
+        "04": {
+            "id": "06",
+            "text": "Cao Bằng"
+        },
+        "06": {
+            "id": "11",
+            "text": "Bắc Kạn"
+        },
+        "08": {
+            "id": "09",
+            "text": "Tuyên Quang"
+        }
+    },
+    "doiTuongTuyenSinh": {
+        "notFound": [
+            {
+                "id": "00",
+                "text": "Không đối tượng"
+            }
+        ],
+        "02": {
+            "id": "02",
+            "text": "Công nhân ưu tú trực tiếp sản xuất đã làm việc liên tục 5 năm trở lên trong đó có 2 năm trở lên là chiến sĩ thi đua được cấp tỉnh, thành phố, ngành trở lên công nhận và cấp bằng khen"
+        },
+        "01": {
+            "id": "01",
+            "text": "Công dân Việt Nam là người dân tộc thiểu số"
+        },
+        "03": {
+            "id": "03",
+            "text": "Thương binh, bệnh binh, người có thẻ chứng nhận được hưởng chính sách như thương binh; quân nhân, công an nhân dân tại ngũ được cử đi học có thời gian phục vụ từ 12 tháng trở lên tại KV1; quân nhân, công an nhân dân tại ngũ được cử đi học có thời gian phục vụ từ 24 tháng trở lên; quân nhân, công an nhân dân hoàn thành nghĩa vụ đã xuất ngũ, có thời gian phục vụ từ 24 tháng trở lên"
+        },
+        "04": {
+            "id": "04",
+            "text": "Con liệt sĩ; con thương binh, con bệnh binh, con của người hưởng chính sách như thương binh mất sức lao động 81% trở lên; con bà mẹ Việt Nam anh hùng, con của anh hùng lực lượng vũ trang, con của anh hùng lao động."
+        },
+        "06": {
+            "id": "06",
+            "text": "Con thương binh, con bệnh binh, con của người hưởng chính sách như thương binh mất sức lao động dưới 81%."
+        },
+        "07": {
+            "id": "07",
+            "text": "Người lao động ưu tú thuộc tất cả các thành phần kinh tế được từ cấp tỉnh, thành phố, bộ trở lên công nhận danh hiệu thợ giỏi, nghệ nhân, được cấp bằng và huy hiệu lao động sáng tạo của Tổng Liên đoàn lao động Việt Nam hoặc Trung ương Đoàn TNCS HCM; giáo viên đã giảng dạy 3 năm thi vào các ngành sư phạm, y tá, dược tá, hộ lý, kỹ thuật viên, y sĩ, dược sĩ trung cấp đã công tác 3 năm thi vào ngành y, dược."
+        }
+    },
+    "maDanToc": {
+        "10": {
+            "id": "17",
+            "text": "Giarai"
+        },
+        "12": {
+            "id": "5",
+            "text": "Êđê"
+        },
+        "13": {
+            "id": "16",
+            "text": "Bana"
+        },
+        "16": {
+            "id": "2",
+            "text": "Chăm"
+        },
+        "18": {
+            "id": "19",
+            "text": "H Rê"
+        },
+        "20": {
+            "id": "20",
+            "text": "Raglai"
+        },
+        "27": {
+            "id": "23",
+            "text": "Mạ"
+        },
+        "31": {
+            "id": "10",
+            "text": "Chơro"
+        },
+        "05": {
+            "id": "4",
+            "text": "Khmer"
+        },
+        "19": {
+            "id": "13",
+            "text": "Mnông"
+        },
+        "15": {
+            "id": "18",
+            "text": "Kơ-ho"
+        },
+        "23": {
+            "id": "22",
+            "text": "Thổ"
+        },
+        "35": {
+            "id": "6",
+            "text": "Chu-ru"
+        },
+        "notFound": [
+            {
+                "id": "08",
+                "text": "Hmông"
+            },
+            {
+                "id": "09",
+                "text": "Dao"
+            },
+            {
+                "id": "11",
+                "text": "Ngái"
+            },
+            {
+                "id": "14",
+                "text": "Xơ-đăng"
+            },
+            {
+                "id": "17",
+                "text": "Sán Dìu"
+            },
+            {
+                "id": "21",
+                "text": "Xtiêng"
+            },
+            {
+                "id": "22",
+                "text": "Bru-Vân Kiều"
+            },
+            {
+                "id": "24",
+                "text": "Giáy"
+            },
+            {
+                "id": "25",
+                "text": "Cơ-tu"
+            },
+            {
+                "id": "26",
+                "text": "Gié-Triêng"
+            },
+            {
+                "id": "28",
+                "text": "Khơ-mú"
+            },
+            {
+                "id": "29",
+                "text": "Co"
+            },
+            {
+                "id": "30",
+                "text": "Ta-ôi"
+            },
+            {
+                "id": "32",
+                "text": "Kháng"
+            },
+            {
+                "id": "33",
+                "text": "Xinh-mun"
+            },
+            {
+                "id": "34",
+                "text": "Hà Nhì"
+            },
+            {
+                "id": "36",
+                "text": "Lào"
+            },
+            {
+                "id": "37",
+                "text": "La Chi"
+            },
+            {
+                "id": "38",
+                "text": "La Ha"
+            },
+            {
+                "id": "39",
+                "text": "Phù Lá"
+            },
+            {
+                "id": "40",
+                "text": "La Hủ"
+            },
+            {
+                "id": "41",
+                "text": "Lự"
+            },
+            {
+                "id": "42",
+                "text": "Lô Lô"
+            },
+            {
+                "id": "43",
+                "text": "Chứt"
+            },
+            {
+                "id": "44",
+                "text": "Mảng"
+            },
+            {
+                "id": "45",
+                "text": "Pà Thẻn"
+            },
+            {
+                "id": "46",
+                "text": "Cơ Lao"
+            },
+            {
+                "id": "47",
+                "text": "Cống"
+            },
+            {
+                "id": "48",
+                "text": "Bố Y"
+            },
+            {
+                "id": "49",
+                "text": "Si La"
+            },
+            {
+                "id": "50",
+                "text": "Pu Péo"
+            },
+            {
+                "id": "51",
+                "text": "Brâu"
+            },
+            {
+                "id": "52",
+                "text": "Ơ Đu"
+            },
+            {
+                "id": "53",
+                "text": "Rơ-măm"
+            },
+            {
+                "id": "54",
+                "text": "Người nước ngoài"
+            },
+            {
+                "id": "00",
+                "text": "Chưa xác định"
+            }
+        ],
+        "02": {
+            "id": "8",
+            "text": "Tày"
+        },
+        "01": {
+            "id": "KINH",
+            "text": "Kinh"
+        },
+        "03": {
+            "id": "12",
+            "text": "Thái"
+        },
+        "04": {
+            "id": "3",
+            "text": "Hoa"
+        },
+        "06": {
+            "id": "7",
+            "text": "Mường"
+        },
+        "07": {
+            "id": "9",
+            "text": "Nùng"
+        }
+    },
+    "maTonGiao": {
+        "13": {
+            "id": "LM",
+            "text": "Bà la môn"
+        },
+        "18": {
+            "id": "LUON",
+            "text": "Lương dân"
+        },
+        "19": {
+            "id": "THL",
+            "text": "Thiền Lâm"
+        },
+        "99": {
+            "id": "0",
+            "text": "Không"
+        },
+        "00": {
+            "id": "0",
+            "text": "Không"
+        },
+        "05": {
+            "id": "HG",
+            "text": "Hoà Hảo"
+        },
+        "07": {
+            "id": "BH",
+            "text": "B' hai"
+        },
+        "15": {
+            "id": "TC",
+            "text": "Thiên chúa"
+        },
+        "09": {
+            "id": "HN",
+            "text": "Hiếu Nghĩa"
+        },
+        "notFound": [
+            {
+                "id": "08",
+                "text": "Tịnh độ Cư sĩ Phật hội Việt Nam"
+            },
+            {
+                "id": "10",
+                "text": "Bửu Sơn Kỳ Hương"
+            },
+            {
+                "id": "11",
+                "text": "Giáo hội Phật đường Nam tông Minh sư đạo"
+            },
+            {
+                "id": "12",
+                "text": "Hội thánh Minh Lý đạo - Tam Tông Miếu"
+            },
+            {
+                "id": "14",
+                "text": "Mặc môn"
+            },
+            {
+                "id": "16",
+                "text": "Tôn giáo khác"
+            },
+            {
+                "id": "17",
+                "text": "Chăm Bà Ni"
+            }
+        ],
+        "02": {
+            "id": "CG",
+            "text": "Công giáo"
+        },
+        "01": {
+            "id": "PG",
+            "text": "Phật giáo"
+        },
+        "03": {
+            "id": "TL",
+            "text": "Tin lành"
+        },
+        "04": {
+            "id": "CD",
+            "text": "Cao đài"
+        },
+        "06": {
+            "id": "HG",
+            "text": "Hồi giáo"
+        }
+    },
+    "maTruongTotNghiepDaiHoc": {
+        "50": {
+            "id": "ANH",
+            "text": "Học viện An Ninh Nhân Dân"
+        },
+        "52": {
+            "id": "DBV",
+            "text": "Đại học Bà Rịa Vũng Tàu"
+        },
+        "54": {
+            "id": "BKA",
+            "text": "Đại học Bách Khoa Hà Nội"
+        },
+        "57": {
+            "id": "TCT",
+            "text": "Đại học Cần Thơ"
+        },
+        "58": {
+            "id": "CSH",
+            "text": "Học viện Cảnh Sát Nhân Dân"
+        },
+        "60": {
+            "id": "LDA",
+            "text": "Đại học Công Đoàn"
+        },
+        "70": {
+            "id": "DCN",
+            "text": "Đại học Công Nghiệp Hà Nội"
+        },
+        "74": {
+            "id": "CIH",
+            "text": "Cao đẳng Công Nghiệp Việt - Hung"
+        },
+        "78": {
+            "id": "TDL",
+            "text": "Đại học Đà Lạt"
+        },
+        "80": {
+            "id": "DDD",
+            "text": "Đại học Dân Lập Đông Đô"
+        },
+        "81": {
+            "id": "DDT",
+            "text": "Đại học Dân Lập Duy Tân"
+        },
+        "82": {
+            "id": "DHP",
+            "text": "Đại học Dân Lập Hải Phòng"
+        },
+        "83": {
+            "id": "DTV",
+            "text": "Đại học Dân Lập Lương Thế Vinh"
+        },
+        "84": {
+            "id": "DPX",
+            "text": "Đại học Dân Lập Phú Xuân"
+        },
+        "85": {
+            "id": "DPD",
+            "text": "Đại học Dân Lập Phương Đông"
+        },
+        "86": {
+            "id": "DVL",
+            "text": "Đại học Dân Lập Văn Lang"
+        },
+        "88": {
+            "id": "CDL",
+            "text": "Cao đẳng Điện Lực"
+        },
+        "89": {
+            "id": "YDD",
+            "text": "Đại học Điều Dưỡng Nam Định"
+        },
+        "93": {
+            "id": "DKH",
+            "text": "Đại học Dược Hà Nội"
+        },
+        "103": {
+            "id": "THP",
+            "text": "Đại học Hải Phòng"
+        },
+        "104": {
+            "id": "HHA",
+            "text": "Đại học Hàng Hải"
+        },
+        "108": {
+            "id": "HDT",
+            "text": "Đại học Hồng Đức"
+        },
+        "109": {
+            "id": "THV",
+            "text": "Đại học Hùng Vương"
+        },
+        "116": {
+            "id": "KTA",
+            "text": "Đại học Kiến Trúc Hà Nội"
+        },
+        "124": {
+            "id": "KHA",
+            "text": "Đại học Kinh Tế Quốc Dân"
+        },
+        "125": {
+            "id": "CEP",
+            "text": "Cao đẳng Kinh Tế TP. Hồ Chí Minh"
+        },
+        "138": {
+            "id": "LPH",
+            "text": "Đại học Luật Hà Nội"
+        },
+        "140": {
+            "id": "MDA",
+            "text": "Đại học Mỏ Địa Chất"
+        },
+        "142": {
+            "id": "MTC",
+            "text": "Đại học Mỹ Thuật Công Nghiệp"
+        },
+        "165": {
+            "id": "PCH",
+            "text": "Đại học Phòng Cháy Chữa Cháy (phía Bắc)"
+        },
+        "166": {
+            "id": "PCS",
+            "text": "Đại học Phòng Cháy Chữa Cháy (phía Nam)"
+        },
+        "174": {
+            "id": "RMI",
+            "text": "Đại học Quốc Tế RMIT Việt Nam"
+        },
+        "176": {
+            "id": "DQN",
+            "text": "Đại học Quy Nhơn"
+        },
+        "177": {
+            "id": "RHM",
+            "text": "Đại học Răng - Hàm - Mặt"
+        },
+        "179": {
+            "id": "SKD",
+            "text": "Đại học Sân Khấu Điện Ảnh"
+        },
+        "182": {
+            "id": "C01",
+            "text": "Cao đẳng Sư Phạm Hà Nội"
+        },
+        "183": {
+            "id": "SP2",
+            "text": "Đại học Sư Phạm Hà Nội 2"
+        },
+        "184": {
+            "id": "SKH",
+            "text": "Đại học Sư Phạm Kỹ Thuật Hưng Yên"
+        },
+        "185": {
+            "id": "SKN",
+            "text": "Đại học Sư Phạm Kỹ Thuật Nam Định"
+        },
+        "188": {
+            "id": "CK4",
+            "text": "Cao đẳng Sư Phạm Kỹ Thuật Vĩnh Long"
+        },
+        "192": {
+            "id": "C02",
+            "text": "Cao đẳng Sư Phạm TP. Hồ Chí Minh"
+        },
+        "193": {
+            "id": "CTQ",
+            "text": "Cao đẳng Tài Chính Kế Toán"
+        },
+        "196": {
+            "id": "CTK",
+            "text": "Cao đẳng Tài Chính - Quản Trị Kinh Doanh"
+        },
+        "197": {
+            "id": "CKH",
+            "text": "Cao đẳng Tài Nguyên và Môi Trường Hà Nội"
+        },
+        "201": {
+            "id": "TTB",
+            "text": "Đại học Tây Bắc"
+        },
+        "203": {
+            "id": "TTN",
+            "text": "Đại học Tây Nguyên"
+        },
+        "211": {
+            "id": "CT3",
+            "text": "Cao đẳng Thể Dục Thể Thao Đà Nẵng"
+        },
+        "213": {
+            "id": "TDM",
+            "text": "Đại học Thủ Dầu Một"
+        },
+        "215": {
+            "id": "TMA",
+            "text": "Đại học Thương Mại"
+        },
+        "218": {
+            "id": "TTG",
+            "text": "Đại học Tiền Giang"
+        },
+        "224": {
+            "id": "VHH",
+            "text": "Đại học Văn Hóa Hà Nội"
+        },
+        "230": {
+            "id": "TDV",
+            "text": "Đại học Vinh"
+        },
+        "232": {
+            "id": "XDA",
+            "text": "Đại học Xây Dựng Hà Nội"
+        },
+        "233": {
+            "id": "CMT",
+            "text": "Cao đẳng Xây Dựng Miền Tây"
+        },
+        "235": {
+            "id": "YCT",
+            "text": "Đại học Y Dược Cần Thơ"
+        },
+        "238": {
+            "id": "YHB",
+            "text": "Đại học Y Hà Nội"
+        },
+        "240": {
+            "id": "YPB",
+            "text": "Đại học Y Hải Phòng"
+        },
+        "243": {
+            "id": "YTC",
+            "text": "Đại học Y Tế Công Cộng"
+        },
+        "notFound": [
+            {
+                "id": 214,
+                "text": "Đại học Thủ đô Hà Nội"
+            },
+            {
+                "id": 216,
+                "text": "Đại học Thủy lợi (Cơ sở 1)"
+            },
+            {
+                "id": 217,
+                "text": "Đại học Thủy lợi (Cơ sở 2)"
+            },
+            {
+                "id": 219,
+                "text": "Đại học Tôn Đức Thắng"
+            },
+            {
+                "id": 220,
+                "text": "Đại học Trà Vinh"
+            },
+            {
+                "id": 221,
+                "text": "Đại học Trưng Vương"
+            },
+            {
+                "id": 222,
+                "text": "Đại học Tư thục Công nghệ Thông tin Gia Định"
+            },
+            {
+                "id": 223,
+                "text": "Đại học Văn Hiến"
+            },
+            {
+                "id": 225,
+                "text": "Đại học Văn hóa TP. Hồ Chí Minh"
+            },
+            {
+                "id": 226,
+                "text": "Đại học Văn hóa"
+            },
+            {
+                "id": 227,
+                "text": "Đại học Văn hóa-Nghệ thuật Quân Đội"
+            },
+            {
+                "id": 228,
+                "text": "Đại học Việt Bắc"
+            },
+            {
+                "id": 229,
+                "text": "Đại học Việt Đức"
+            },
+            {
+                "id": 231,
+                "text": "Đại học Võ Trường Toản"
+            },
+            {
+                "id": 234,
+                "text": "Đại học Xây dựng Miền Trung"
+            },
+            {
+                "id": 236,
+                "text": "Đại học Y Dược Thái Bình"
+            },
+            {
+                "id": 237,
+                "text": "Đại học Y Dược TP. Hồ Chí Minh"
+            },
+            {
+                "id": 239,
+                "text": "Đại học Y Hà Nội-Phân hiệu tại Thanh Hóa"
+            },
+            {
+                "id": 241,
+                "text": "Đại học Y Khoa Phạm Ngọc Thạch"
+            },
+            {
+                "id": 242,
+                "text": "Đại học Y Khoa Vinh"
+            },
+            {
+                "id": 244,
+                "text": "Đại học Y khoa Tokyo Việt Nam"
+            },
+            {
+                "id": 245,
+                "text": "Đại học Yersin Đà Lạt"
+            },
+            {
+                "id": 1,
+                "text": "ĐHQG-HN-Đại học Công nghệ"
+            },
+            {
+                "id": 2,
+                "text": "ĐHQG-HN-Đại học Giáo dục"
+            },
+            {
+                "id": 3,
+                "text": "ĐHQG-HN-Đại học Khoa học Tự nhiên"
+            },
+            {
+                "id": 4,
+                "text": "ĐHQG-HN-Đại học Khoa học Xã hội và Nhân văn"
+            },
+            {
+                "id": 5,
+                "text": "ĐHQG-HN-Đại học Kinh tế"
+            },
+            {
+                "id": 6,
+                "text": "ĐHQG-HN-Đại học Ngoại ngữ"
+            },
+            {
+                "id": 7,
+                "text": "ĐHQG-HN-Khoa Luật"
+            },
+            {
+                "id": 8,
+                "text": "ĐHQG-HN-Khoa Quốc tế"
+            },
+            {
+                "id": 9,
+                "text": "ĐHQG-HN-Khoa Y Dược"
+            },
+            {
+                "id": 10,
+                "text": "ĐHQG-HCM-Đại học An Giang"
+            },
+            {
+                "id": 11,
+                "text": "ĐHQG-HCM-Đại học Bách Khoa"
+            },
+            {
+                "id": 12,
+                "text": "ĐHQG-HCM-Đại học Công nghệ Thông tin"
+            },
+            {
+                "id": 13,
+                "text": "ĐHQG-HCM-Đại học Khoa học Tự nhiên"
+            },
+            {
+                "id": 14,
+                "text": "ĐHQG-HCM-Đại học Khoa học Xã hội và Nhân văn"
+            },
+            {
+                "id": 15,
+                "text": "ĐHQG-HCM-Đại học Kinh tế-Luật"
+            },
+            {
+                "id": 16,
+                "text": "ĐHQG-HCM-Đại học Quốc tế"
+            },
+            {
+                "id": 17,
+                "text": "ĐHQG-HCM-Khoa Y"
+            },
+            {
+                "id": 18,
+                "text": "ĐHQG-HCM-Phân hiệu tại Bến Tre"
+            },
+            {
+                "id": 19,
+                "text": "Đại học Huế-Đại học Khoa học"
+            },
+            {
+                "id": 20,
+                "text": "Đại học Huế-Đại học Kinh tế"
+            },
+            {
+                "id": 21,
+                "text": "Đại học Huế-Đại học Luật"
+            },
+            {
+                "id": 22,
+                "text": "Đại học Huế-Đại học Nghệ thuật"
+            },
+            {
+                "id": 23,
+                "text": "Đại học Huế-Đại học Ngoại ngữ"
+            },
+            {
+                "id": 24,
+                "text": "Đại học Huế-Đại học Nông lâm"
+            },
+            {
+                "id": 25,
+                "text": "Đại học Huế-Đại học Sư phạm"
+            },
+            {
+                "id": 26,
+                "text": "Đại học Huế-Đại học Y Dược"
+            },
+            {
+                "id": 27,
+                "text": "Đại học Huế-Khoa Du lịch"
+            },
+            {
+                "id": 28,
+                "text": "Đại học Huế-Khoa Giáo dục Thể chất"
+            },
+            {
+                "id": 29,
+                "text": "Đại học Huế-Phân hiệu tại Quảng Trị"
+            },
+            {
+                "id": 30,
+                "text": "Đại học Đà Nẵng-Cao đẳng Công nghệ Thông tin"
+            },
+            {
+                "id": 31,
+                "text": "Đại học Đà Nẵng-Đại học Bách Khoa"
+            },
+            {
+                "id": 32,
+                "text": "Đại học Đà Nẵng-Đại học Kinh tế"
+            },
+            {
+                "id": 33,
+                "text": "Đại học Đà Nẵng-Đại học Ngoại ngữ"
+            },
+            {
+                "id": 34,
+                "text": "Đại học Đà Nẵng-Đại học Sư phạm"
+            },
+            {
+                "id": 35,
+                "text": "Đại học Đà Nẵng-Khoa Công nghệ"
+            },
+            {
+                "id": 36,
+                "text": "Đại học Đà Nẵng-Khoa Y Dược"
+            },
+            {
+                "id": 37,
+                "text": "Đại học Đà Nẵng-Phân hiệu tại Kon Tum"
+            },
+            {
+                "id": 38,
+                "text": "Đại học Đà Nẵng-Viện nghiên cứu và đào tạo Việt Anh"
+            },
+            {
+                "id": 39,
+                "text": "Đại học Thái Nguyên-Cao đẳng Kinh tế-Kỹ thuật"
+            },
+            {
+                "id": 40,
+                "text": "Đại học Thái Nguyên-Đại học Công nghệ Thông tin và Truyền thông"
+            },
+            {
+                "id": 41,
+                "text": "Đại học Thái Nguyên-Đại học Khoa học"
+            },
+            {
+                "id": 42,
+                "text": "Đại học Thái Nguyên-Đại học Kinh tế và Quản trị Kinh doanh"
+            },
+            {
+                "id": 43,
+                "text": "Đại học Thái Nguyên-Đại học Kỹ thuật Công nghiệp"
+            },
+            {
+                "id": 44,
+                "text": "Đại học Thái Nguyên-Đại học Nông Lâm"
+            },
+            {
+                "id": 45,
+                "text": "Đại học Thái Nguyên-Đại học Sư phạm"
+            },
+            {
+                "id": 46,
+                "text": "Đại học Thái Nguyên-Đại học Y Dược"
+            },
+            {
+                "id": 47,
+                "text": "Đại học Thái Nguyên-Khoa Ngoại Ngữ"
+            },
+            {
+                "id": 48,
+                "text": "Đại học Thái Nguyên-Khoa Quốc Tế"
+            },
+            {
+                "id": 49,
+                "text": "Đại học Thái Nguyên-Phân hiệu tại Lào Cai"
+            },
+            {
+                "id": 51,
+                "text": "Đại học Anh quốc Việt Nam"
+            },
+            {
+                "id": 53,
+                "text": "Đại học Bạc Liêu"
+            },
+            {
+                "id": 55,
+                "text": "Đại học Bình Dương"
+            },
+            {
+                "id": 56,
+                "text": "Đại học Buôn Ma Thuột"
+            },
+            {
+                "id": 59,
+                "text": "Đại học Chu Văn An"
+            },
+            {
+                "id": 61,
+                "text": "Đại học Công nghệ Đông Á"
+            },
+            {
+                "id": 62,
+                "text": "Đại học Công nghệ Đồng Nai"
+            },
+            {
+                "id": 63,
+                "text": "Đại học Công nghệ Giao thông Vận tải"
+            },
+            {
+                "id": 64,
+                "text": "Đại học Công nghệ Miền Đông"
+            },
+            {
+                "id": 65,
+                "text": "Đại học Công nghệ Sài Gòn"
+            },
+            {
+                "id": 66,
+                "text": "Đại học Công nghệ TP. Hồ Chí Minh"
+            },
+            {
+                "id": 67,
+                "text": "Đại học Công nghệ và Quản lý Hữu Nghị"
+            },
+            {
+                "id": 68,
+                "text": "Đại học Công nghệ Vạn Xuân"
+            },
+            {
+                "id": 69,
+                "text": "Đại học Công nghiệp Dệt may Hà Nội"
+            },
+            {
+                "id": 71,
+                "text": "Đại học Công nghiệp Quảng Ninh"
+            },
+            {
+                "id": 72,
+                "text": "Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh"
+            },
+            {
+                "id": 73,
+                "text": "Đại học Công nghiệp TP. Hồ Chí Minh"
+            },
+            {
+                "id": 75,
+                "text": "Đại học Công nghiệp Việt Trì"
+            },
+            {
+                "id": 76,
+                "text": "Đại học Công nghiệp Vinh"
+            },
+            {
+                "id": 77,
+                "text": "Đại học Cửu Long"
+            },
+            {
+                "id": 79,
+                "text": "Đại học Đại Nam"
+            },
+            {
+                "id": 87,
+                "text": "Đại học Dầu khí Việt Nam"
+            },
+            {
+                "id": 90,
+                "text": "Đại học Đông Á"
+            },
+            {
+                "id": 91,
+                "text": "Đại học Đồng Nai"
+            },
+            {
+                "id": 92,
+                "text": "Đại học Đồng Tháp"
+            },
+            {
+                "id": 94,
+                "text": "Đại học FPT"
+            },
+            {
+                "id": 95,
+                "text": "Đại học Giao thông Vận tải (Cơ sở Phía Bắc)"
+            },
+            {
+                "id": 96,
+                "text": "Đại học Giao thông Vận tải (Cơ sở Phía Nam)"
+            },
+            {
+                "id": 97,
+                "text": "Đại học Giao thông Vận tải TP. Hồ Chí Minh"
+            },
+            {
+                "id": 98,
+                "text": "Đại học Hà Hoa Tiên"
+            },
+            {
+                "id": 99,
+                "text": "Đại học Hạ Long"
+            },
+            {
+                "id": 100,
+                "text": "Đại học Hà Nội"
+            },
+            {
+                "id": 101,
+                "text": "Đại học Hà Tĩnh"
+            },
+            {
+                "id": 102,
+                "text": "Đại học Hải Dương"
+            },
+            {
+                "id": 105,
+                "text": "Đại học Hòa Bình"
+            },
+            {
+                "id": 106,
+                "text": "Đại học Hoa Lư"
+            },
+            {
+                "id": 107,
+                "text": "Đại học Hoa Sen"
+            },
+            {
+                "id": 110,
+                "text": "Đại học Hùng Vương TP. Hồ Chí Minh"
+            },
+            {
+                "id": 111,
+                "text": "Đại học Khánh Hòa"
+            },
+            {
+                "id": 112,
+                "text": "Đại học Khoa học và Công nghệ Hà Nội"
+            },
+            {
+                "id": 113,
+                "text": "Đại học Kiểm sát Hà Nội"
+            },
+            {
+                "id": 114,
+                "text": "Đại học Kiên Giang"
+            },
+            {
+                "id": 115,
+                "text": "Đại học Kiến trúc Đà Nẵng"
+            },
+            {
+                "id": 117,
+                "text": "Đại học Kiến trúc TP. Hồ Chí Minh"
+            },
+            {
+                "id": 118,
+                "text": "Đại học Kinh Bắc"
+            },
+            {
+                "id": 119,
+                "text": "Đại học Kinh doanh và Công nghệ Hà Nội"
+            },
+            {
+                "id": 120,
+                "text": "Đại học Kinh tế Công nghiệp Long An"
+            },
+            {
+                "id": 121,
+                "text": "Đại học Kinh tế Kỹ thuật Bình Dương"
+            },
+            {
+                "id": 122,
+                "text": "Đại học Kinh tế Kỹ thuật Công nghiệp"
+            },
+            {
+                "id": 123,
+                "text": "Đại học Kinh tế Nghệ An"
+            },
+            {
+                "id": 126,
+                "text": "Đại học Kinh tế-Tài chính TP. Hồ Chí Minh"
+            },
+            {
+                "id": 127,
+                "text": "Đại học Kỹ thuật Công nghệ Cần Thơ"
+            },
+            {
+                "id": 128,
+                "text": "Đại học Kỹ thuật Y Dược Đà Nẵng"
+            },
+            {
+                "id": 129,
+                "text": "Đại học Kỹ thuật Y tế Hải Dương"
+            },
+            {
+                "id": 130,
+                "text": "Đại học Kỹ thuật-Hậu cần Công an Nhân dân (Phía Bắc)"
+            },
+            {
+                "id": 131,
+                "text": "Đại học Kỹ thuật-Hậu cần Công an Nhân dân (Phía Nam)"
+            },
+            {
+                "id": 132,
+                "text": "Đại học Lạc Hồng"
+            },
+            {
+                "id": 133,
+                "text": "Đại học Lâm nghiệp (Cơ sở 1)"
+            },
+            {
+                "id": 134,
+                "text": "Đại học Lâm nghiệp (Cơ sở 2)"
+            },
+            {
+                "id": 135,
+                "text": "Đại học Lao động-Xã hội (Cơ sở Hà Nội)"
+            },
+            {
+                "id": 136,
+                "text": "Đại học Lao động-Xã hội (Cơ sở phía Nam)"
+            },
+            {
+                "id": 137,
+                "text": "Đại học Lao động-Xã hội (Cơ sở Sơn Tây)"
+            },
+            {
+                "id": 139,
+                "text": "Đại học Luật TP. Hồ Chí Minh"
+            },
+            {
+                "id": 141,
+                "text": "Đại học Mở TP. Hồ Chí Minh"
+            },
+            {
+                "id": 143,
+                "text": "Đại học Mỹ thuật Công nghiệp Á Châu"
+            },
+            {
+                "id": 144,
+                "text": "Đại học Mỹ thuật TP. Hồ Chí Minh"
+            },
+            {
+                "id": 145,
+                "text": "Đại học Mỹ thuật Việt Nam"
+            },
+            {
+                "id": 146,
+                "text": "Đại học Nam Cần Thơ"
+            },
+            {
+                "id": 147,
+                "text": "Đại học Ngân hàng TP. Hồ Chí Minh"
+            },
+            {
+                "id": 148,
+                "text": "Đại học Ngoại ngữ-Tin học TP. Hồ Chí Minh"
+            },
+            {
+                "id": 149,
+                "text": "Đại học Ngoại thương (phía Bắc)"
+            },
+            {
+                "id": 150,
+                "text": "Đại học Ngoại thương (phía Nam)"
+            },
+            {
+                "id": 151,
+                "text": "Đại học Nguyễn Huệ"
+            },
+            {
+                "id": 152,
+                "text": "Đại học Nguyễn Tất Thành"
+            },
+            {
+                "id": 153,
+                "text": "Đại học Nguyễn Trãi"
+            },
+            {
+                "id": 154,
+                "text": "Đại học Nha Trang"
+            },
+            {
+                "id": 155,
+                "text": "Đại học Nội vụ"
+            },
+            {
+                "id": 156,
+                "text": "Đại học Nông lâm Bắc Giang"
+            },
+            {
+                "id": 157,
+                "text": "Đại học Nông lâm TP. Hồ Chí Minh"
+            },
+            {
+                "id": 158,
+                "text": "Đại học Nông lâm TP. Hồ Chí Minh-Phân hiệu tại Gia Lai"
+            },
+            {
+                "id": 159,
+                "text": "Đại học Nông lâm TP. Hồ Chí Minh-Phân hiệu tại Ninh Thuận"
+            },
+            {
+                "id": 160,
+                "text": "Đại học Phạm Văn Đồng"
+            },
+            {
+                "id": 161,
+                "text": "Đại học Phan Châu Trinh"
+            },
+            {
+                "id": 162,
+                "text": "Đại học Phan Thiết"
+            },
+            {
+                "id": 163,
+                "text": "Đại học Phòng cháy chữa cháy (Hệ Dân sự Phía Bắc)"
+            },
+            {
+                "id": 164,
+                "text": "Đại học Phòng cháy chữa cháy (Hệ Dân sự Phía Nam)"
+            },
+            {
+                "id": 167,
+                "text": "Đại học Phú Yên"
+            },
+            {
+                "id": 168,
+                "text": "Đại học Quảng Bình"
+            },
+            {
+                "id": 169,
+                "text": "Đại học Quảng Nam"
+            },
+            {
+                "id": 170,
+                "text": "Đại học Quang Trung"
+            },
+            {
+                "id": 171,
+                "text": "Đại học Quốc tế Bắc Hà"
+            },
+            {
+                "id": 172,
+                "text": "Đại học Quốc tế Hồng Bàng"
+            },
+            {
+                "id": 173,
+                "text": "Đại học Quốc tế Miền Đông"
+            },
+            {
+                "id": 175,
+                "text": "Đại học Quốc tế Sài Gòn"
+            },
+            {
+                "id": 178,
+                "text": "Đại học Sài Gòn"
+            },
+            {
+                "id": 180,
+                "text": "Đại học Sân khấu"
+            },
+            {
+                "id": 181,
+                "text": "Đại học Sao Đỏ"
+            },
+            {
+                "id": 186,
+                "text": "Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh"
+            },
+            {
+                "id": 187,
+                "text": "Đại học Sư phạm Kỹ thuật Vinh"
+            },
+            {
+                "id": 189,
+                "text": "Đại học Sư phạm Nghệ thuật Trung Ương"
+            },
+            {
+                "id": 190,
+                "text": "Đại học Sư phạm Thể dục Thể thao Hà Nội"
+            },
+            {
+                "id": 191,
+                "text": "Đại học Sư phạm Thể dục Thể thao TP. Hồ Chí Minh"
+            },
+            {
+                "id": 194,
+                "text": "Đại học Tài chính Marketing"
+            },
+            {
+                "id": 195,
+                "text": "Đại học Tài chính Ngân hàng Hà Nội"
+            },
+            {
+                "id": 198,
+                "text": "Đại học Tài Nguyên Môi trường TP. Hồ Chí Minh"
+            },
+            {
+                "id": 199,
+                "text": "Đại học Tân Tạo"
+            },
+            {
+                "id": 200,
+                "text": "Đại học Tân Trào"
+            },
+            {
+                "id": 202,
+                "text": "Đại học Tây Đô"
+            },
+            {
+                "id": 204,
+                "text": "Đại học Thái Bình"
+            },
+            {
+                "id": 205,
+                "text": "Đại học Thái Bình Dương"
+            },
+            {
+                "id": 206,
+                "text": "Đại học Thăng Long"
+            },
+            {
+                "id": 207,
+                "text": "Đại học Thành Đô"
+            },
+            {
+                "id": 208,
+                "text": "Đại học Thành Đông"
+            },
+            {
+                "id": 209,
+                "text": "Đại học Thành Tây"
+            },
+            {
+                "id": 210,
+                "text": "Đại học Thể dục Thể thao Bắc Ninh"
+            },
+            {
+                "id": 212,
+                "text": "Đại học Thể dục Thể thao TP. Hồ Chí Minh"
+            }
+        ]
+    },
+    "maTruongTotNghiepCaoDang": {
+        "4": {
+            "id": "CLT",
+            "text": "Cao đẳng Lương Thực Thực Phẩm"
+        },
+        "5": {
+            "id": "CMH",
+            "text": "Cao đẳng Múa Việt Nam"
+        },
+        "6": {
+            "id": "CDN",
+            "text": "Cao đẳng Mỹ Thuật Trang Trí Đồng Nai"
+        },
+        "7": {
+            "id": "CNT",
+            "text": "Cao đẳng Nghệ Thuật Hà Nội"
+        },
+        "12": {
+            "id": "CPT",
+            "text": "Cao đẳng Phát Thanh Truyền Hình I"
+        },
+        "17": {
+            "id": "C52",
+            "text": "Cao đẳng Sư Phạm Bà Rịa - Vũng Tàu"
+        },
+        "18": {
+            "id": "C19",
+            "text": "Cao đẳng Sư Phạm Bắc Ninh"
+        },
+        "19": {
+            "id": "C43",
+            "text": "Cao đẳng Sư Phạm Bình Phước"
+        },
+        "20": {
+            "id": "C61",
+            "text": "Cao đẳng Sư Phạm Cà Mau"
+        },
+        "21": {
+            "id": "C06",
+            "text": "Cao đẳng Sư Phạm Cao Bằng"
+        },
+        "22": {
+            "id": "C42",
+            "text": "Cao đẳng Sư Phạm Đà Lạt"
+        },
+        "23": {
+            "id": "C40",
+            "text": "Cao đẳng Sư Phạm Đăk Lăk"
+        },
+        "24": {
+            "id": "C62",
+            "text": "Cao đẳng Sư Phạm Điện Biên"
+        },
+        "25": {
+            "id": "C38",
+            "text": "Cao đẳng Sư Phạm Gia Lai"
+        },
+        "26": {
+            "id": "C05",
+            "text": "Cao đẳng Sư Phạm Hà Giang"
+        },
+        "27": {
+            "id": "C24",
+            "text": "Cao đẳng Sư Phạm Hà Nam"
+        },
+        "28": {
+            "id": "C20",
+            "text": "Cao đẳng Sư Phạm Hà Tây"
+        },
+        "29": {
+            "id": "C23",
+            "text": "Cao đẳng Sư Phạm Hòa Bình"
+        },
+        "30": {
+            "id": "C22",
+            "text": "Cao đẳng Sư Phạm Hưng Yên"
+        },
+        "31": {
+            "id": "C54",
+            "text": "Cao đẳng Sư Phạm Kiên Giang"
+        },
+        "32": {
+            "id": "C36",
+            "text": "Cao đẳng Sư Phạm Kon Tum"
+        },
+        "33": {
+            "id": "C10",
+            "text": "Cao đẳng Sư Phạm Lạng Sơn"
+        },
+        "34": {
+            "id": "C08",
+            "text": "Cao đẳng Sư Phạm Lào Cai"
+        },
+        "35": {
+            "id": "C49",
+            "text": "Cao đẳng Sư Phạm Long An"
+        },
+        "36": {
+            "id": "C25",
+            "text": "Cao đẳng Sư Phạm Nam Định"
+        },
+        "37": {
+            "id": "C29",
+            "text": "Cao đẳng Sư Phạm Nghệ An"
+        },
+        "38": {
+            "id": "C18",
+            "text": "Cao đẳng Sư Phạm Ngô Gia Tự Bắc Giang"
+        },
+        "39": {
+            "id": "C41",
+            "text": "Cao đẳng Sư Phạm Nha Trang"
+        },
+        "40": {
+            "id": "C45",
+            "text": "Cao đẳng Sư Phạm Ninh Thuận"
+        },
+        "41": {
+            "id": "C17",
+            "text": "Cao đẳng Sư Phạm Quảng Ninh"
+        },
+        "42": {
+            "id": "C32",
+            "text": "Cao đẳng Sư Phạm Quảng Trị"
+        },
+        "43": {
+            "id": "C59",
+            "text": "Cao đẳng Sư Phạm Sóc Trăng"
+        },
+        "44": {
+            "id": "C46",
+            "text": "Cao đẳng Sư Phạm Tây Ninh"
+        },
+        "45": {
+            "id": "C26",
+            "text": "Cao đẳng Sư Phạm Thái Bình"
+        },
+        "46": {
+            "id": "C12",
+            "text": "Cao đẳng Sư Phạm Thái Nguyên"
+        },
+        "47": {
+            "id": "C33",
+            "text": "Cao đẳng Sư Phạm Thừa Thiên - Huế"
+        },
+        "51": {
+            "id": "C09",
+            "text": "Cao đẳng Sư Phạm Tuyên Quang"
+        },
+        "52": {
+            "id": "C57",
+            "text": "Cao đẳng Sư Phạm Vĩnh Long"
+        },
+        "53": {
+            "id": "C16",
+            "text": "Cao đẳng Sư Phạm Vĩnh Phúc"
+        },
+        "55": {
+            "id": "CTS",
+            "text": "Cao đẳng Tài Chính - Hải Quan"
+        },
+        "58": {
+            "id": "CTE",
+            "text": "Cao đẳng Thống Kê"
+        },
+        "59": {
+            "id": "TMA",
+            "text": "Đại học Thương Mại"
+        },
+        "63": {
+            "id": "TSB",
+            "text": "Đại học Thủy Sản"
+        },
+        "64": {
+            "id": "CTV",
+            "text": "Cao đẳng Truyền Hình"
+        },
+        "65": {
+            "id": "CDA",
+            "text": "Cao Đẳng Tư Thục Đức Trí"
+        },
+        "66": {
+            "id": "CVL",
+            "text": "Cao đẳng Văn Hóa Nghệ Thuật Đăk Lăk"
+        },
+        "68": {
+            "id": "CVV",
+            "text": "Cao đẳng Văn Hóa - Nghệ Thuật Nghệ An"
+        },
+        "69": {
+            "id": "CVB",
+            "text": "Cao đẳng Văn Hóa  Nghệ Thuật Tây Bắc"
+        },
+        "72": {
+            "id": "CVD",
+            "text": "Cao đẳng Văn Hóa  Nghệ Thuật và Du Lịch Hạ Long"
+        },
+        "73": {
+            "id": "CDK",
+            "text": "Cao đẳng Văn Hóa Nghệ Thuật và Du Lịch Nha Trang"
+        },
+        "75": {
+            "id": "CNV",
+            "text": "Cao đẳng Văn Hóa  Nghệ Thuật Việt Bắc"
+        },
+        "78": {
+            "id": "CDT",
+            "text": "Cao đẳng Xây Dựng Công Trình Đô Thị"
+        },
+        "81": {
+            "id": "CXS",
+            "text": "Cao đẳng Xây Dựng Số 2"
+        },
+        "97": {
+            "id": "CYY",
+            "text": "Cao đẳng Y Tế Huế"
+        },
+        "106": {
+            "id": "CYQ",
+            "text": "Cao đẳng Y Tế Quảng Ninh"
+        },
+        "110": {
+            "id": "CYT",
+            "text": "Cao đẳng Y Tế Thanh Hóa"
+        },
+        "115": {
+            "id": "ANH",
+            "text": "Học viện An Ninh Nhân Dân"
+        },
+        "116": {
+            "id": "TGC",
+            "text": "Học viện Báo Chí - Tuyên Truyền"
+        },
+        "119": {
+            "id": "CSH",
+            "text": "Học viện Cảnh Sát Nhân Dân"
+        },
+        "132": {
+            "id": "KMA",
+            "text": "Học viện Kỹ Thuật Mật Mã"
+        },
+        "135": {
+            "id": "NHH",
+            "text": "Học viện Ngân Hàng"
+        },
+        "145": {
+            "id": "HTC",
+            "text": "Học viện Tài Chính"
+        },
+        "168": {
+            "id": "MHN",
+            "text": "Viện đại học Mở Hà Nội"
+        },
+        "176": {
+            "id": "C56",
+            "text": "Cao đẳng Bến Tre"
+        },
+        "178": {
+            "id": "TCT",
+            "text": "Đại học Cần Thơ"
+        },
+        "182": {
+            "id": "CKL",
+            "text": "Cao đẳng Cơ Khí Luyện Kim"
+        },
+        "186": {
+            "id": "D50",
+            "text": "Cao đẳng Cộng đồng Đồng Tháp"
+        },
+        "188": {
+            "id": "D20",
+            "text": "Cao đẳng Cộng Đồng Hà Tây"
+        },
+        "189": {
+            "id": "D03",
+            "text": "Cao đẳng Cộng Đồng Hải Phòng"
+        },
+        "191": {
+            "id": "D54",
+            "text": "Cao đẳng Cộng đồng Kiên Giang"
+        },
+        "195": {
+            "id": "D57",
+            "text": "Cao đẳng Cộng đồng Vĩnh Long"
+        },
+        "201": {
+            "id": "CCO",
+            "text": "Cao đẳng Công Nghệ Thủ Đức"
+        },
+        "208": {
+            "id": "CDS",
+            "text": "Cao đẳng Công Nghệ và Quản Trị SONADEZI"
+        },
+        "216": {
+            "id": "CND",
+            "text": "Cao đẳng Công Nghiệp Nam Định"
+        },
+        "227": {
+            "id": "CDD",
+            "text": "Cao đẳng Dân Lập Kinh Tế Kỹ Thuật Đông Du Đà Nẵng"
+        },
+        "231": {
+            "id": "CDH",
+            "text": "Cao đẳng Du lịch Hà Nội"
+        },
+        "235": {
+            "id": "CGS",
+            "text": "Cao đẳng Giao Thông Vận Tải 3"
+        },
+        "236": {
+            "id": "CGD",
+            "text": "Cao đẳng Giao Thông Vận Tải II"
+        },
+        "243": {
+            "id": "CKD",
+            "text": "Cao đẳng Kinh Tế Đối Ngoại"
+        },
+        "253": {
+            "id": "CEP",
+            "text": "Cao đẳng Kinh Tế TP. Hồ Chí Minh"
+        },
+        "255": {
+            "id": "CKK",
+            "text": "Cao đẳng Kinh Tế - Kế Hoạch Đà Nẵng"
+        },
+        "256": {
+            "id": "CEC",
+            "text": "Cao đẳng Kinh Tế - Kỹ Thuật Cần Thơ"
+        },
+        "259": {
+            "id": "CTH",
+            "text": "Cao đẳng Kinh Tế - Kỹ Thuật Thương Mại"
+        },
+        "262": {
+            "id": "CKV",
+            "text": "Cao đẳng Kinh Tế - Tài Chính Vĩnh Long"
+        },
+        "263": {
+            "id": "CKC",
+            "text": "Cao đẳng Kỹ Thuật Cao Thắng"
+        },
+        "notFound": [
+            {
+                "id": 1,
+                "text": "Cao đẳng Kỹ thuật Lý Tự Trọng TP. Hồ Chí Minh"
+            },
+            {
+                "id": 2,
+                "text": "Cao đẳng Kỹ thuật-Công nghệ Vạn Xuân"
+            },
+            {
+                "id": 3,
+                "text": "Cao đẳng Lạc Việt"
+            },
+            {
+                "id": 8,
+                "text": "Cao đẳng Ngoại ngữ-Công nghệ Việt Nhật"
+            },
+            {
+                "id": 9,
+                "text": "Cao đẳng Nông lâm Đông Bắc"
+            },
+            {
+                "id": 10,
+                "text": "Cao đẳng Nông nghiệp Nam Bộ"
+            },
+            {
+                "id": 11,
+                "text": "Cao đẳng Nông nghiệp và Phát triển Nông thôn Bắc Bộ"
+            },
+            {
+                "id": 13,
+                "text": "Cao đẳng Phát thanh Truyền hình II"
+            },
+            {
+                "id": 14,
+                "text": "Cao đẳng Phương Đông-Đà Nẵng"
+            },
+            {
+                "id": 15,
+                "text": "Cao đẳng Phương Đông-Quảng Nam"
+            },
+            {
+                "id": 16,
+                "text": "Cao đẳng Sơn La"
+            },
+            {
+                "id": 48,
+                "text": "Cao đẳng Sư phạm Trung Ương"
+            },
+            {
+                "id": 49,
+                "text": "Cao đẳng Sư phạm Trung Ương TP. Hồ Chí Minh"
+            },
+            {
+                "id": 50,
+                "text": "Cao đẳng Sư phạm Trung Ương Nha Trang"
+            },
+            {
+                "id": 54,
+                "text": "Cao đẳng Sư phạm Yên Bái"
+            },
+            {
+                "id": 56,
+                "text": "Cao đẳng Tài nguyên và Môi trường Miền Trung"
+            },
+            {
+                "id": 57,
+                "text": "Cao đẳng Thể dục Thể thao Thanh Hóa"
+            },
+            {
+                "id": 60,
+                "text": "Cao đẳng Thương mại và Du lịch"
+            },
+            {
+                "id": 61,
+                "text": "Cao đẳng Thương mại và Du lịch Hà Nội"
+            },
+            {
+                "id": 62,
+                "text": "Cao đẳng Thủy lợi Bắc Bộ"
+            },
+            {
+                "id": 67,
+                "text": "Cao đẳng Văn hóa Nghệ thuật Du lịch Yên Bái"
+            },
+            {
+                "id": 70,
+                "text": "Cao đẳng Văn hóa Nghệ thuật Thái Bình"
+            },
+            {
+                "id": 71,
+                "text": "Cao đẳng Văn hóa Nghệ thuật TP. Hồ Chí Minh"
+            },
+            {
+                "id": 74,
+                "text": "Cao đẳng Văn hóa Nghệ thuật và Du lịch Sài Gòn"
+            },
+            {
+                "id": 76,
+                "text": "Cao đẳng Văn hóa"
+            },
+            {
+                "id": 77,
+                "text": "Cao đẳng Viễn Đông"
+            },
+            {
+                "id": 79,
+                "text": "Cao đẳng Xây dựng Nam Định"
+            },
+            {
+                "id": 80,
+                "text": "Cao đẳng Xây dựng Số 1"
+            },
+            {
+                "id": 82,
+                "text": "Cao đẳng Y tế Bạc Liêu"
+            },
+            {
+                "id": 83,
+                "text": "Cao đẳng Y tế Bạch Mai"
+            },
+            {
+                "id": 84,
+                "text": "Cao đẳng Y tế Bình Định"
+            },
+            {
+                "id": 85,
+                "text": "Cao đẳng Y tế Bình Dương"
+            },
+            {
+                "id": 86,
+                "text": "Cao đẳng Y tế Bình Thuận"
+            },
+            {
+                "id": 87,
+                "text": "Cao đẳng Y tế Cà Mau"
+            },
+            {
+                "id": 88,
+                "text": "Cao đẳng Y tế Cần Thơ"
+            },
+            {
+                "id": 89,
+                "text": "Cao đẳng Y tế Điện Biên"
+            },
+            {
+                "id": 90,
+                "text": "Cao đẳng Y tế Đồng Nai"
+            },
+            {
+                "id": 91,
+                "text": "Cao đẳng Y tế Đồng Tháp"
+            },
+            {
+                "id": 92,
+                "text": "Cao đẳng Y tế Hà Đông"
+            },
+            {
+                "id": 93,
+                "text": "Cao đẳng Y tế Hà Nam"
+            },
+            {
+                "id": 94,
+                "text": "Cao đẳng Y tế Hà Nội"
+            },
+            {
+                "id": 95,
+                "text": "Cao đẳng Y tế Hà Tĩnh"
+            },
+            {
+                "id": 96,
+                "text": "Cao đẳng Y tế Hải Phòng"
+            },
+            {
+                "id": 98,
+                "text": "Cao đẳng Y tế Hưng Yên"
+            },
+            {
+                "id": 99,
+                "text": "Cao đẳng Y tế Khánh Hòa"
+            },
+            {
+                "id": 100,
+                "text": "Cao đẳng Y tế Kiên Giang"
+            },
+            {
+                "id": 101,
+                "text": "Cao đẳng Y tế Lâm Đồng"
+            },
+            {
+                "id": 102,
+                "text": "Cao đẳng Y tế Lạng Sơn"
+            },
+            {
+                "id": 103,
+                "text": "Cao đẳng Y tế Ninh Bình"
+            },
+            {
+                "id": 104,
+                "text": "Cao đẳng Y tế Phú Thọ"
+            },
+            {
+                "id": 105,
+                "text": "Cao đẳng Y tế Quảng Nam"
+            },
+            {
+                "id": 107,
+                "text": "Cao đẳng Y tế Sơn La"
+            },
+            {
+                "id": 108,
+                "text": "Cao đẳng Y tế Thái Bình"
+            },
+            {
+                "id": 109,
+                "text": "Cao đẳng Y tế Thái Nguyên"
+            },
+            {
+                "id": 111,
+                "text": "Cao đẳng Y tế Tiền Giang"
+            },
+            {
+                "id": 112,
+                "text": "Cao đẳng Y tế Trà Vinh"
+            },
+            {
+                "id": 113,
+                "text": "Học viện Âm nhạc Huế"
+            },
+            {
+                "id": 114,
+                "text": "Học viện Âm nhạc Quốc gia Việt Nam"
+            },
+            {
+                "id": 117,
+                "text": "Học viện Biên phòng"
+            },
+            {
+                "id": 118,
+                "text": "Học viện cán bộ TP. Hồ Chí Minh"
+            },
+            {
+                "id": 120,
+                "text": "Học viện Chính sách và Phát triển"
+            },
+            {
+                "id": 121,
+                "text": "Học viện Chính trị Công an Nhân dân"
+            },
+            {
+                "id": 122,
+                "text": "Học viện Công nghệ Bưu chính Viễn thông (Phía Bắc)"
+            },
+            {
+                "id": 123,
+                "text": "Học viện Công nghệ Bưu chính Viễn thông (phía Nam)"
+            },
+            {
+                "id": 124,
+                "text": "Học viện Hải quân"
+            },
+            {
+                "id": 125,
+                "text": "Học viện Hàng không Việt Nam"
+            },
+            {
+                "id": 126,
+                "text": "Học viện Hành chính Quốc gia (phía Bắc)"
+            },
+            {
+                "id": 127,
+                "text": "Học viện Hành chính Quốc gia (phía Nam)"
+            },
+            {
+                "id": 128,
+                "text": "Học viện Hậu cần-Hệ Dân sự"
+            },
+            {
+                "id": 129,
+                "text": "Học viện Hậu cần-Hệ Quân sự"
+            },
+            {
+                "id": 130,
+                "text": "Học viện Khoa học Quân sự-Hệ Dân sự"
+            },
+            {
+                "id": 131,
+                "text": "Học viện Khoa học Quân sự-Hệ Quân sự"
+            },
+            {
+                "id": 133,
+                "text": "Học viện Kỹ thuật Quân sự-Hệ Quân sự"
+            },
+            {
+                "id": 134,
+                "text": "Học viện Kỹ thuật Quân sự-Hệ Dân sự"
+            },
+            {
+                "id": 136,
+                "text": "Học viện Ngân hàng Phân viện Phú Yên"
+            },
+            {
+                "id": 137,
+                "text": "Học viện Ngân hàng Phân viện Bắc Ninh"
+            },
+            {
+                "id": 138,
+                "text": "Học viện Ngoại Giao"
+            },
+            {
+                "id": 139,
+                "text": "Học viện Nông nghiệp Việt Nam"
+            },
+            {
+                "id": 140,
+                "text": "Học viện Phòng không-Không quân"
+            },
+            {
+                "id": 141,
+                "text": "Học viện Phụ nữ Việt Nam"
+            },
+            {
+                "id": 142,
+                "text": "Học viện Quản lý Giáo dục"
+            },
+            {
+                "id": 143,
+                "text": "Học viện Quân Y-Hệ Dân sự"
+            },
+            {
+                "id": 144,
+                "text": "Học viện Quân Y-Hệ Quân sự"
+            },
+            {
+                "id": 146,
+                "text": "Học viện Thanh Thiếu niên Việt Nam"
+            },
+            {
+                "id": 147,
+                "text": "Học viện Tòa án"
+            },
+            {
+                "id": 148,
+                "text": "Học viện Y dược học Cổ truyền Việt Nam"
+            },
+            {
+                "id": 149,
+                "text": "Nhạc Viện TP. Hồ Chí Minh"
+            },
+            {
+                "id": 150,
+                "text": "Trường Cao đẳng Y Dược Sài Gòn"
+            },
+            {
+                "id": 151,
+                "text": "Trường Cao đẳng Y Khoa Phạm Ngọc Thạch"
+            },
+            {
+                "id": 152,
+                "text": "Trường Sĩ Quan Chính trị-Đại học Chính trị"
+            },
+            {
+                "id": 153,
+                "text": "Trường Sĩ quan Chính trị (hệ dân sự)"
+            },
+            {
+                "id": 154,
+                "text": "Trường Sĩ quan Công binh-Hệ Dân sự-Đại học Ngô Quyền"
+            },
+            {
+                "id": 155,
+                "text": "Trường Sĩ quan Công Binh-Hệ Quân sự-Đại học Ngô Quyền"
+            },
+            {
+                "id": 156,
+                "text": "Trường Sĩ quan Đặc công"
+            },
+            {
+                "id": 157,
+                "text": "Trường Sĩ quan Không quân-Hệ Cao đẳng"
+            },
+            {
+                "id": 158,
+                "text": "Trường Sĩ quan Không quân-Hệ Đại học"
+            },
+            {
+                "id": 159,
+                "text": "Trường Sĩ quan Kỹ thuật Quân sự-Hệ Dân sự-Đại học Trần Đại Nghĩa"
+            },
+            {
+                "id": 160,
+                "text": "Trường Sĩ quan Kỹ thuật Quân sự-Hệ Quân sự-Đại học Trần Đại Nghĩa"
+            },
+            {
+                "id": 161,
+                "text": "Trường Sĩ quan Lục quân 1-Đại học Trần Quốc Tuấn"
+            },
+            {
+                "id": 162,
+                "text": "Trường Sĩ quan Lục quân 2-Đại học Nguyễn Huệ"
+            },
+            {
+                "id": 163,
+                "text": "Trường Sĩ quan Pháo binh"
+            },
+            {
+                "id": 164,
+                "text": "Trường Sĩ quan Phòng hóa"
+            },
+            {
+                "id": 165,
+                "text": "Trường Sĩ quan Tăng-Thiết giáp"
+            },
+            {
+                "id": 166,
+                "text": "Trường Sĩ quan Thông tin-Hệ Dân sự-Đại học Thông tin Liên lạc"
+            },
+            {
+                "id": 167,
+                "text": "Trường Sĩ quan Thông tin-Hệ Quân sự-Đại học Thông tin Liên lạc"
+            },
+            {
+                "id": 169,
+                "text": "Cao đẳng An ninh Nhân dân 1"
+            },
+            {
+                "id": 170,
+                "text": "Cao đẳng An ninh Nhân dân 2"
+            },
+            {
+                "id": 171,
+                "text": "Cao đẳng Asean"
+            },
+            {
+                "id": 172,
+                "text": "Cao đẳng Bách Khoa Đà Nẵng"
+            },
+            {
+                "id": 173,
+                "text": "Cao đẳng Bách Khoa Hưng Yên"
+            },
+            {
+                "id": 174,
+                "text": "Cao đẳng Bách Việt CBY-Cao đẳng Y tế Bình Dương"
+            },
+            {
+                "id": 175,
+                "text": "Cao đẳng Bán Công Công nghệ và Quản trị Doanh nghiệp"
+            },
+            {
+                "id": 177,
+                "text": "Cao đẳng Bình Định"
+            },
+            {
+                "id": 179,
+                "text": "Cao đẳng Cảnh sát Nhân dân 1"
+            },
+            {
+                "id": 180,
+                "text": "Cao đẳng Cảnh sát Nhân dân II"
+            },
+            {
+                "id": 181,
+                "text": "Cao đẳng Cơ điện và Nông nghiệp Nam Bộ"
+            },
+            {
+                "id": 183,
+                "text": "Cao đẳng Cộng đồng Bắc Kạn"
+            },
+            {
+                "id": 184,
+                "text": "Cao đẳng Cộng đồng Bình Thuận"
+            },
+            {
+                "id": 185,
+                "text": "Cao đẳng Cộng đồng Cà Mau"
+            },
+            {
+                "id": 187,
+                "text": "Cao đẳng Cộng đồng Hà Nội"
+            },
+            {
+                "id": 190,
+                "text": "Cao đẳng Cộng đồng Hậu Giang"
+            },
+            {
+                "id": 192,
+                "text": "Cao đẳng Cộng đồng Lai Châu"
+            },
+            {
+                "id": 193,
+                "text": "Cao đẳng Cộng đồng Lào Cai"
+            },
+            {
+                "id": 194,
+                "text": "Cao đẳng Cộng đồng Sóc Trăng"
+            },
+            {
+                "id": 196,
+                "text": "Cao đẳng Công Kỹ nghệ Đông Á"
+            },
+            {
+                "id": 197,
+                "text": "Cao đẳng Công nghệ Hà Nội"
+            },
+            {
+                "id": 198,
+                "text": "Cao đẳng Công nghệ Kinh tế và Thủy lợi Miền Trung"
+            },
+            {
+                "id": 199,
+                "text": "Cao đẳng Công nghệ Thông tin Hữu nghị Việt Hàn"
+            },
+            {
+                "id": 200,
+                "text": "Cao đẳng Công nghệ Thông tin TP. Hồ Chí Minh"
+            },
+            {
+                "id": 202,
+                "text": "Cao đẳng Công nghệ và Kinh doanh Việt Tiến"
+            },
+            {
+                "id": 203,
+                "text": "Cao đẳng Công nghệ và Kinh tế Bảo Lộc"
+            },
+            {
+                "id": 204,
+                "text": "Cao đẳng Công nghệ và Kinh tế Công nghiệp"
+            },
+            {
+                "id": 281,
+                "text": "Cao đẳng Công nghệ Sài Gòn "
+            },
+            {
+                "id": 301,
+                "text": "Hệ Cao đẳng-Trường Đại học Công nghiệp Thành phố Hồ Chí Minh"
+            },
+            {
+                "id": 321,
+                "text": "Hệ Cao đẳng-Trường Đại học Tôn Đức Thắng"
+            },
+            {
+                "id": 205,
+                "text": "Cao đẳng Công nghệ và Kinh tế Hà Nội"
+            },
+            {
+                "id": 206,
+                "text": "Cao đẳng Công nghệ và Kỹ thuật Ô tô"
+            },
+            {
+                "id": 207,
+                "text": "Cao đẳng Công nghệ và Môi trường"
+            },
+            {
+                "id": 209,
+                "text": "Cao đẳng Công nghệ Viettronics"
+            },
+            {
+                "id": 210,
+                "text": "Cao đẳng Công nghiệp Cẩm Phả"
+            },
+            {
+                "id": 211,
+                "text": "Cao đẳng Công nghiệp Cao su"
+            },
+            {
+                "id": 212,
+                "text": "Cao đẳng Công nghiệp Hóa chất"
+            },
+            {
+                "id": 213,
+                "text": "Cao đẳng Công nghiệp Huế"
+            },
+            {
+                "id": 214,
+                "text": "Cao đẳng Công nghiệp Hưng Yên"
+            },
+            {
+                "id": 215,
+                "text": "Cao đẳng Công nghiệp In"
+            },
+            {
+                "id": 217,
+                "text": "Cao đẳng Công nghiệp Phúc Yên"
+            },
+            {
+                "id": 218,
+                "text": "Cao đẳng Công nghiệp Quốc Phòng"
+            },
+            {
+                "id": 219,
+                "text": "Cao đẳng Công nghiệp Thái Nguyên"
+            },
+            {
+                "id": 220,
+                "text": "Cao đẳng Công nghiệp Thực Phẩm"
+            },
+            {
+                "id": 221,
+                "text": "Cao đẳng Công nghiệp Tuy Hòa"
+            },
+            {
+                "id": 222,
+                "text": "Cao đẳng Công nghiệp và Xây Dựng"
+            },
+            {
+                "id": 223,
+                "text": "Cao đẳng Công nghiệp Việt Đức"
+            },
+            {
+                "id": 224,
+                "text": "Cao đẳng Công thương TP. Hồ Chí Minh"
+            },
+            {
+                "id": 225,
+                "text": "Cao đẳng Đại Việt"
+            },
+            {
+                "id": 226,
+                "text": "Cao đẳng Đại Việt Sài Gòn"
+            },
+            {
+                "id": 228,
+                "text": "Cao đẳng Điện lực Miền Trung"
+            },
+            {
+                "id": 229,
+                "text": "Cao đẳng Điện lực TP. Hồ Chí Minh"
+            },
+            {
+                "id": 230,
+                "text": "Cao đẳng Điện tử-Điện lạnh Hà Nội"
+            },
+            {
+                "id": 232,
+                "text": "Cao đẳng Du lịch và Thương Mại"
+            },
+            {
+                "id": 233,
+                "text": "Cao đẳng Dược Phú Thọ"
+            },
+            {
+                "id": 234,
+                "text": "Cao đẳng Dược Trung Ương"
+            },
+            {
+                "id": 237,
+                "text": "Cao đẳng Giao thông Vận tải Miền Trung"
+            },
+            {
+                "id": 238,
+                "text": "Cao đẳng Giao thông Vận tải TP. Hồ Chí Minh"
+            },
+            {
+                "id": 239,
+                "text": "Cao đẳng Hải Dương"
+            },
+            {
+                "id": 240,
+                "text": "Cao đẳng Hàng Hải I"
+            },
+            {
+                "id": 241,
+                "text": "Cao đẳng Hoan Châu"
+            },
+            {
+                "id": 242,
+                "text": "Cao đẳng Kinh tế Công nghiệp Hà Nội"
+            },
+            {
+                "id": 244,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Điện Biên"
+            },
+            {
+                "id": 245,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Kiên Giang"
+            },
+            {
+                "id": 246,
+                "text": "Cao đẳng Kinh tế- Kỹ thuật Kon Tum"
+            },
+            {
+                "id": 247,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Lâm Đồng"
+            },
+            {
+                "id": 248,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Miền Nam"
+            },
+            {
+                "id": 249,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Phú Thọ"
+            },
+            {
+                "id": 250,
+                "text": "Cao đẳng Kinh tế Kỹ thuật TP. Hồ Chí Minh"
+            },
+            {
+                "id": 251,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Vinatex TP. Hồ Chí Minh"
+            },
+            {
+                "id": 252,
+                "text": "Cao đẳng Kinh tế Kỹ thuật Vĩnh Phúc"
+            },
+            {
+                "id": 254,
+                "text": "Cao đẳng Kinh tế-Công nghệ TP. Hồ Chí Minh"
+            },
+            {
+                "id": 257,
+                "text": "Cao đẳng Kinh tế-Kỹ thuật Hà Nội"
+            },
+            {
+                "id": 258,
+                "text": "Cao đẳng Kinh tế-Kỹ thuật Quảng Nam"
+            },
+            {
+                "id": 260,
+                "text": "Cao đẳng Kinh tế-Kỹ thuật Trung Ương"
+            },
+            {
+                "id": 261,
+                "text": "Cao đẳng Kinh tế-Tài chính Thái Nguyên"
+            },
+            {
+                "id": 264,
+                "text": "Cao đẳng Kỹ thuật Công nghiệp"
+            },
+            {
+                "id": 265,
+                "text": "Cao đẳng Kỹ thuật Công nghiệp Quảng Ngãi"
+            }
+        ]
+    }
+}

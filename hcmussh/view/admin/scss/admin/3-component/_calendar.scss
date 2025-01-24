@@ -1,0 +1,29 @@
+.calendar-container {
+    .date-item {
+        vertical-align: unset !important;
+    }
+
+    .date-item:hover {
+        background: rgba(93, 143, 236, 0.41);
+    }
+
+    .selected-date {
+        background: rgba(93, 143, 236, 0.41);
+    }
+
+    .month-item {
+        white-space: nowrap;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .month-item:hover {
+        transform: scale(1.15);
+    }
+
+    .gap-10 {
+        gap: 10
+    }
+}

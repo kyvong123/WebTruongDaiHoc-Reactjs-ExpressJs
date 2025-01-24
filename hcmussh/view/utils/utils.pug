@@ -1,0 +1,362 @@
+doctype html
+html(lang='vi')
+    head
+        meta(charset='utf-8')
+        title #{htmlWebpackPlugin.options.title}
+        script(async='', src='https://www.googletagmanager.com/gtag/js?id=G-KWBS6LN9DD')
+        meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1')
+        meta(content=htmlWebpackPlugin.options.keywords.toString())
+        meta(content=htmlWebpackPlugin.options.description name='description')
+        meta(content='910' property='og:image:height')
+        meta(content='1200' property='og:image:width')
+        //- link(href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700', rel='stylesheet')
+        //- link(href='https://fonts.googleapis.com/css?family=Alex+Brush', rel='stylesheet')
+        meta(content='https://hcmussh.edu.vn/img/avatar.png?t=1649046939342' property='og:image')
+        //- link(rel='stylesheet' href='/home/css/loading.css')
+        link(rel='stylesheet' href='/utils/css/viewer.css')
+        //- link(rel='stylesheet' href='/home/css/open-iconic-bootstrap.min.css')
+        //- link(rel='stylesheet' href='/home/css/animate.css')
+        //- link(rel='stylesheet' href='/home/css/owl.carousel.min.css')
+        //- link(rel='stylesheet' href='/home/css/owl.theme.default.min.css')
+        //- link(rel='stylesheet' href='/home/css/magnific-popup.css')
+        //- link(rel='stylesheet' href='/home/css/aos.css')
+        //- link(rel='stylesheet' href='/home/css/ionicons.min.css')
+        //- link(rel='stylesheet' href='/home/css/bootstrap-datepicker.css')
+        //- link(rel='stylesheet' href='/home/css/jquery.timepicker.css')
+        //- link(rel='stylesheet' href='/home/css/flaticon.css')
+        //- link(rel='stylesheet' href='/home/css/icomoon.css')
+        //- link(rel='stylesheet' href='/css/font-awesome.min.css')
+        script(type='module' src='/utils/pdf.mjs')
+        script(type='module' src='/utils/viewer.mjs')
+    body
+        //main#app(style={position: 'relative', 'min-height': '100vh'})
+        main#app
+        #outerContainer
+            #sidebarContainer
+                #toolbarSidebar
+                    #toolbarSidebarLeft
+                        #sidebarViewButtons.splitToolbarButton.toggled(role='radiogroup')
+                            button#viewThumbnail.toolbarButton.toggled(title='Show Thumbnails', tabindex='2', data-l10n-id='pdfjs-thumbs-button', role='radio', aria-checked='true', aria-controls='thumbnailView')
+                                span(data-l10n-id='pdfjs-thumbs-button-label') Thumbnails
+                            button#viewOutline.toolbarButton(title='Show Document Outline (double-click to expand/collapse all items)', tabindex='3', data-l10n-id='pdfjs-document-outline-button', role='radio', aria-checked='false', aria-controls='outlineView')
+                                span(data-l10n-id='pdfjs-document-outline-button-label') Document Outline
+                            button#viewAttachments.toolbarButton(title='Show Attachments', tabindex='4', data-l10n-id='pdfjs-attachments-button', role='radio', aria-checked='false', aria-controls='attachmentsView')
+                                span(data-l10n-id='pdfjs-attachments-button-label') Attachments
+                            button#viewLayers.toolbarButton(title='Show Layers (double-click to reset all layers to the default state)', tabindex='5', data-l10n-id='pdfjs-layers-button', role='radio', aria-checked='false', aria-controls='layersView')
+                                span(data-l10n-id='pdfjs-layers-button-label') Layers
+                    #toolbarSidebarRight
+                        #outlineOptionsContainer
+                            .verticalToolbarSeparator
+                            button#currentOutlineItem.toolbarButton(disabled='disabled', title='Find Current Outline Item', tabindex='6', data-l10n-id='pdfjs-current-outline-item-button')
+                                span(data-l10n-id='pdfjs-current-outline-item-button-label') Current Outline Item
+                #sidebarContent
+                    #thumbnailView
+                    #outlineView.hidden
+                    #attachmentsView.hidden
+                    #layersView.hidden
+                #sidebarResizer
+            // sidebarContainer
+            #mainContainer
+                #findbar.findbar.hidden.doorHanger
+                    #findbarInputContainer
+                        span.loadingInput.end
+                            input#findInput.toolbarField(title='Find', placeholder='Find in document…', tabindex='91', data-l10n-id='pdfjs-find-input', aria-invalid='false')
+                        .splitToolbarButton
+                            button#findPrevious.toolbarButton(title='Find the previous occurrence of the phrase', tabindex='92', data-l10n-id='pdfjs-find-previous-button')
+                                span(data-l10n-id='pdfjs-find-previous-button-label') Previous
+                            .splitToolbarButtonSeparator
+                            button#findNext.toolbarButton(title='Find the next occurrence of the phrase', tabindex='93', data-l10n-id='pdfjs-find-next-button')
+                                span(data-l10n-id='pdfjs-find-next-button-label') Next
+                    #findbarOptionsOneContainer
+                        input#findHighlightAll.toolbarField(type='checkbox', tabindex='94')
+                        label.toolbarLabel(for='findHighlightAll', data-l10n-id='pdfjs-find-highlight-checkbox') Highlight All
+                        input#findMatchCase.toolbarField(type='checkbox', tabindex='95')
+                        label.toolbarLabel(for='findMatchCase', data-l10n-id='pdfjs-find-match-case-checkbox-label') Match Case
+                    #findbarOptionsTwoContainer
+                        input#findMatchDiacritics.toolbarField(type='checkbox', tabindex='96')
+                        label.toolbarLabel(for='findMatchDiacritics', data-l10n-id='pdfjs-find-match-diacritics-checkbox-label') Match Diacritics
+                        input#findEntireWord.toolbarField(type='checkbox', tabindex='97')
+                        label.toolbarLabel(for='findEntireWord', data-l10n-id='pdfjs-find-entire-word-checkbox-label') Whole Words
+                    #findbarMessageContainer(aria-live='polite')
+                        span#findResultsCount.toolbarLabel
+                        span#findMsg.toolbarLabel
+                // findbar
+                #editorHighlightParamsToolbar.editorParamsToolbar.hidden.doorHangerRight
+                    #highlightParamsToolbarContainer.editorParamsToolbarContainer
+                        #editorHighlightColorPicker.colorPicker
+                            span#highlightColorPickerLabel.editorParamsLabel(data-l10n-id='pdfjs-editor-highlight-colorpicker-label') Highlight color
+                        #editorHighlightThickness
+                            label.editorParamsLabel(for='editorFreeHighlightThickness', data-l10n-id='pdfjs-editor-free-highlight-thickness-input') Thickness
+                            .thicknessPicker
+                                input#editorFreeHighlightThickness.editorParamsSlider(type='range', data-l10n-id='pdfjs-editor-free-highlight-thickness-title', value='12', min='8', max='24', step='1', tabindex='101')
+                #editorFreeTextParamsToolbar.editorParamsToolbar.hidden.doorHangerRight
+                    .editorParamsToolbarContainer
+                        .editorParamsSetter
+                            label.editorParamsLabel(for='editorFreeTextColor', data-l10n-id='pdfjs-editor-free-text-color-input') Color
+                            input#editorFreeTextColor.editorParamsColor(type='color', tabindex='102')
+                        .editorParamsSetter
+                            label.editorParamsLabel(for='editorFreeTextFontSize', data-l10n-id='pdfjs-editor-free-text-size-input') Size
+                            input#editorFreeTextFontSize.editorParamsSlider(type='range', value='10', min='5', max='100', step='1', tabindex='103')
+                #editorInkParamsToolbar.editorParamsToolbar.hidden.doorHangerRight
+                    .editorParamsToolbarContainer
+                        .editorParamsSetter
+                            label.editorParamsLabel(for='editorInkColor', data-l10n-id='pdfjs-editor-ink-color-input') Color
+                            input#editorInkColor.editorParamsColor(type='color', tabindex='104')
+                        .editorParamsSetter
+                            label.editorParamsLabel(for='editorInkThickness', data-l10n-id='pdfjs-editor-ink-thickness-input') Thickness
+                            input#editorInkThickness.editorParamsSlider(type='range', value='1', min='1', max='20', step='1', tabindex='105')
+                        .editorParamsSetter
+                            label.editorParamsLabel(for='editorInkOpacity', data-l10n-id='pdfjs-editor-ink-opacity-input') Opacity
+                            input#editorInkOpacity.editorParamsSlider(type='range', value='100', min='1', max='100', step='1', tabindex='106')
+                #editorStampParamsToolbar.editorParamsToolbar.hidden.doorHangerRight
+                    .editorParamsToolbarContainer
+                        button#editorStampAddImage.secondaryToolbarButton(title='Add image', tabindex='107', data-l10n-id='pdfjs-editor-stamp-add-image-button')
+                            span.editorParamsLabel(data-l10n-id='pdfjs-editor-stamp-add-image-button-label') Add image
+                #secondaryToolbar.secondaryToolbar.hidden.doorHangerRight
+                    #secondaryToolbarButtonContainer
+                        // #if GENERIC
+                        button#secondaryOpenFile.secondaryToolbarButton(title='Open File', tabindex='51', data-l10n-id='pdfjs-open-file-button')
+                            span(data-l10n-id='pdfjs-open-file-button-label') Open
+                        // #endif
+                        button#secondaryPrint.secondaryToolbarButton.visibleMediumView(title='Print', tabindex='52', data-l10n-id='pdfjs-print-button')
+                            span(data-l10n-id='pdfjs-print-button-label') Print
+                        button#secondaryDownload.secondaryToolbarButton.visibleMediumView(title='Save', tabindex='53', data-l10n-id='pdfjs-save-button')
+                            span(data-l10n-id='pdfjs-save-button-label') Save
+                        // #if GENERIC
+                        .horizontalToolbarSeparator
+                        // #else
+                        // <div class="horizontalToolbarSeparator visibleMediumView"></div>
+                        // #endif
+                        button#presentationMode.secondaryToolbarButton(title='Switch to Presentation Mode', tabindex='54', data-l10n-id='pdfjs-presentation-mode-button')
+                            span(data-l10n-id='pdfjs-presentation-mode-button-label') Presentation Mode
+                        a#viewBookmark.secondaryToolbarButton(href='#', title='Current Page (View URL from Current Page)', tabindex='55', data-l10n-id='pdfjs-bookmark-button')
+                            span(data-l10n-id='pdfjs-bookmark-button-label') Current Page
+                        #viewBookmarkSeparator.horizontalToolbarSeparator
+                        button#firstPage.secondaryToolbarButton(title='Go to First Page', tabindex='56', data-l10n-id='pdfjs-first-page-button')
+                            span(data-l10n-id='pdfjs-first-page-button-label') Go to First Page
+                        button#lastPage.secondaryToolbarButton(title='Go to Last Page', tabindex='57', data-l10n-id='pdfjs-last-page-button')
+                            span(data-l10n-id='pdfjs-last-page-button-label') Go to Last Page
+                        .horizontalToolbarSeparator
+                        button#pageRotateCw.secondaryToolbarButton(title='Rotate Clockwise', tabindex='58', data-l10n-id='pdfjs-page-rotate-cw-button')
+                            span(data-l10n-id='pdfjs-page-rotate-cw-button-label') Rotate Clockwise
+                        button#pageRotateCcw.secondaryToolbarButton(title='Rotate Counterclockwise', tabindex='59', data-l10n-id='pdfjs-page-rotate-ccw-button')
+                            span(data-l10n-id='pdfjs-page-rotate-ccw-button-label') Rotate Counterclockwise
+                        .horizontalToolbarSeparator
+                        #cursorToolButtons(role='radiogroup')
+                            button#cursorSelectTool.secondaryToolbarButton.toggled(title='Enable Text Selection Tool', tabindex='60', data-l10n-id='pdfjs-cursor-text-select-tool-button', role='radio', aria-checked='true')
+                                span(data-l10n-id='pdfjs-cursor-text-select-tool-button-label') Text Selection Tool
+                            button#cursorHandTool.secondaryToolbarButton(title='Enable Hand Tool', tabindex='61', data-l10n-id='pdfjs-cursor-hand-tool-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-cursor-hand-tool-button-label') Hand Tool
+                        .horizontalToolbarSeparator
+                        #scrollModeButtons(role='radiogroup')
+                            button#scrollPage.secondaryToolbarButton(title='Use Page Scrolling', tabindex='62', data-l10n-id='pdfjs-scroll-page-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-scroll-page-button-label') Page Scrolling
+                            button#scrollVertical.secondaryToolbarButton.toggled(title='Use Vertical Scrolling', tabindex='63', data-l10n-id='pdfjs-scroll-vertical-button', role='radio', aria-checked='true')
+                                span(data-l10n-id='pdfjs-scroll-vertical-button-label') Vertical Scrolling
+                            button#scrollHorizontal.secondaryToolbarButton(title='Use Horizontal Scrolling', tabindex='64', data-l10n-id='pdfjs-scroll-horizontal-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-scroll-horizontal-button-label') Horizontal Scrolling
+                            button#scrollWrapped.secondaryToolbarButton(title='Use Wrapped Scrolling', tabindex='65', data-l10n-id='pdfjs-scroll-wrapped-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-scroll-wrapped-button-label') Wrapped Scrolling
+                        .horizontalToolbarSeparator
+                        #spreadModeButtons(role='radiogroup')
+                            button#spreadNone.secondaryToolbarButton.toggled(title='Do not join page spreads', tabindex='66', data-l10n-id='pdfjs-spread-none-button', role='radio', aria-checked='true')
+                                span(data-l10n-id='pdfjs-spread-none-button-label') No Spreads
+                            button#spreadOdd.secondaryToolbarButton(title='Join page spreads starting with odd-numbered pages', tabindex='67', data-l10n-id='pdfjs-spread-odd-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-spread-odd-button-label') Odd Spreads
+                            button#spreadEven.secondaryToolbarButton(title='Join page spreads starting with even-numbered pages', tabindex='68', data-l10n-id='pdfjs-spread-even-button', role='radio', aria-checked='false')
+                                span(data-l10n-id='pdfjs-spread-even-button-label') Even Spreads
+                        .horizontalToolbarSeparator
+                        button#documentProperties.secondaryToolbarButton(title='Document Properties…', tabindex='69', data-l10n-id='pdfjs-document-properties-button', aria-controls='documentPropertiesDialog')
+                            span(data-l10n-id='pdfjs-document-properties-button-label') Document Properties&mldr;
+                // secondaryToolbar
+                .toolbar
+                    #toolbarContainer
+                        #toolbarViewer
+                            #toolbarViewerLeft
+                                button#sidebarToggle.toolbarButton(title='Toggle Sidebar', tabindex='11', data-l10n-id='pdfjs-toggle-sidebar-button', aria-expanded='false', aria-controls='sidebarContainer')
+                                    span(data-l10n-id='pdfjs-toggle-sidebar-button-label') Toggle Sidebar
+                                .toolbarButtonSpacer
+                                button#viewFind.toolbarButton(title='Find in Document', tabindex='12', data-l10n-id='pdfjs-findbar-button', aria-expanded='false', aria-controls='findbar')
+                                    span(data-l10n-id='pdfjs-findbar-button-label') Find
+                                .splitToolbarButton.hiddenSmallView
+                                    button#previous.toolbarButton(title='Previous Page', tabindex='13', data-l10n-id='pdfjs-previous-button')
+                                        span(data-l10n-id='pdfjs-previous-button-label') Previous
+                                    .splitToolbarButtonSeparator
+                                    button#next.toolbarButton(title='Next Page', tabindex='14', data-l10n-id='pdfjs-next-button')
+                                        span(data-l10n-id='pdfjs-next-button-label') Next
+                                span.loadingInput.start
+                                    input#pageNumber.toolbarField(type='number', title='Page', value='1', min='1', tabindex='15', data-l10n-id='pdfjs-page-input', autocomplete='off')
+                                span#numPages.toolbarLabel
+                            #toolbarViewerRight
+                                #editorModeButtons.splitToolbarButton.toggled(role='radiogroup')
+                                    button#editorHighlight.toolbarButton(hidden='true', disabled='disabled', title='Highlight', role='radio', aria-checked='false', aria-controls='editorHighlightParamsToolbar', tabindex='31', data-l10n-id='pdfjs-editor-highlight-button')
+                                        span(data-l10n-id='pdfjs-editor-highlight-button-label') Highlight
+                                    button#editorFreeText.toolbarButton(disabled='disabled', title='Text', role='radio', aria-checked='false', aria-controls='editorFreeTextParamsToolbar', tabindex='32', data-l10n-id='pdfjs-editor-free-text-button')
+                                        span(data-l10n-id='pdfjs-editor-free-text-button-label') Text
+                                    button#editorInk.toolbarButton(disabled='disabled', title='Draw', role='radio', aria-checked='false', aria-controls='editorInkParamsToolbar', tabindex='33', data-l10n-id='pdfjs-editor-ink-button')
+                                        span(data-l10n-id='pdfjs-editor-ink-button-label') Draw
+                                    button#editorStamp.toolbarButton.hidden(disabled='disabled', title='Add or edit images', role='radio', aria-checked='false', aria-controls='editorStampParamsToolbar', tabindex='34', data-l10n-id='pdfjs-editor-stamp-button')
+                                        span(data-l10n-id='pdfjs-editor-stamp-button-label') Add or edit images
+                                #editorModeSeparator.verticalToolbarSeparator
+                                button#print.toolbarButton.hiddenMediumView(title='Print', tabindex='41', data-l10n-id='pdfjs-print-button')
+                                    span(data-l10n-id='pdfjs-print-button-label') Print
+                                button#download.toolbarButton.hiddenMediumView(title='Save', tabindex='42', data-l10n-id='pdfjs-save-button')
+                                    span(data-l10n-id='pdfjs-save-button-label') Save
+                                .verticalToolbarSeparator.hiddenMediumView
+                                button#secondaryToolbarToggle.toolbarButton(title='Tools', tabindex='43', data-l10n-id='pdfjs-tools-button', aria-expanded='false', aria-controls='secondaryToolbar')
+                                    span(data-l10n-id='pdfjs-tools-button-label') Tools
+                            #toolbarViewerMiddle
+                                .splitToolbarButton
+                                    button#zoomOut.toolbarButton(title='Zoom Out', tabindex='21', data-l10n-id='pdfjs-zoom-out-button')
+                                        span(data-l10n-id='pdfjs-zoom-out-button-label') Zoom Out
+                                    .splitToolbarButtonSeparator
+                                    button#zoomIn.toolbarButton(title='Zoom In', tabindex='22', data-l10n-id='pdfjs-zoom-in-button')
+                                        span(data-l10n-id='pdfjs-zoom-in-button-label') Zoom In
+                                span#scaleSelectContainer.dropdownToolbarButton
+                                    select#scaleSelect(title='Zoom', tabindex='23', data-l10n-id='pdfjs-zoom-select')
+                                        option#pageAutoOption(title='', value='auto', selected='selected', data-l10n-id='pdfjs-page-scale-auto') Automatic Zoom
+                                        option#pageActualOption(title='', value='page-actual', data-l10n-id='pdfjs-page-scale-actual') Actual Size
+                                        option#pageFitOption(title='', value='page-fit', data-l10n-id='pdfjs-page-scale-fit') Page Fit
+                                        option#pageWidthOption(title='', value='page-width', data-l10n-id='pdfjs-page-scale-width') Page Width
+                                        option#customScaleOption(title='', value='custom', disabled='disabled', hidden='true', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 0 }') 0%
+                                        option(title='', value='0.5', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 50 }') 50%
+                                        option(title='', value='0.75', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 75 }') 75%
+                                        option(title='', value='1', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 100 }') 100%
+                                        option(title='', value='1.25', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 125 }') 125%
+                                        option(title='', value='1.5', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 150 }') 150%
+                                        option(title='', value='2', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 200 }') 200%
+                                        option(title='', value='3', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 300 }') 300%
+                                        option(title='', value='4', data-l10n-id='pdfjs-page-scale-percent', data-l10n-args='{ "scale": 400 }') 400%
+                        #loadingBar
+                            .progress
+                                .glimmer
+                #viewerContainer(tabindex='0')
+                    #viewer.pdfViewer
+            // mainContainer
+            #dialogContainer
+                dialog#passwordDialog
+                    .row
+                        label#passwordText(for='password', data-l10n-id='pdfjs-password-label') Enter the password to open this PDF file:
+                    .row
+                        input#password.toolbarField(type='password')
+                    .buttonRow
+                        button#passwordCancel.dialogButton
+                            span(data-l10n-id='pdfjs-password-cancel-button') Cancel
+                        button#passwordSubmit.dialogButton
+                            span(data-l10n-id='pdfjs-password-ok-button') OK
+                dialog#documentPropertiesDialog
+                    .row
+                        span#fileNameLabel(data-l10n-id='pdfjs-document-properties-file-name') File name:
+                        p#fileNameField(aria-labelledby='fileNameLabel') -
+                    .row
+                        span#fileSizeLabel(data-l10n-id='pdfjs-document-properties-file-size') File size:
+                        p#fileSizeField(aria-labelledby='fileSizeLabel') -
+                    .separator
+                    .row
+                        span#titleLabel(data-l10n-id='pdfjs-document-properties-title') Title:
+                        p#titleField(aria-labelledby='titleLabel') -
+                    .row
+                        span#authorLabel(data-l10n-id='pdfjs-document-properties-author') Author:
+                        p#authorField(aria-labelledby='authorLabel') -
+                    .row
+                        span#subjectLabel(data-l10n-id='pdfjs-document-properties-subject') Subject:
+                        p#subjectField(aria-labelledby='subjectLabel') -
+                    .row
+                        span#keywordsLabel(data-l10n-id='pdfjs-document-properties-keywords') Keywords:
+                        p#keywordsField(aria-labelledby='keywordsLabel') -
+                    .row
+                        span#creationDateLabel(data-l10n-id='pdfjs-document-properties-creation-date') Creation Date:
+                        p#creationDateField(aria-labelledby='creationDateLabel') -
+                    .row
+                        span#modificationDateLabel(data-l10n-id='pdfjs-document-properties-modification-date') Modification Date:
+                        p#modificationDateField(aria-labelledby='modificationDateLabel') -
+                    .row
+                        span#creatorLabel(data-l10n-id='pdfjs-document-properties-creator') Creator:
+                        p#creatorField(aria-labelledby='creatorLabel') -
+                    .separator
+                    .row
+                        span#producerLabel(data-l10n-id='pdfjs-document-properties-producer') PDF Producer:
+                        p#producerField(aria-labelledby='producerLabel') -
+                    .row
+                        span#versionLabel(data-l10n-id='pdfjs-document-properties-version') PDF Version:
+                        p#versionField(aria-labelledby='versionLabel') -
+                    .row
+                        span#pageCountLabel(data-l10n-id='pdfjs-document-properties-page-count') Page Count:
+                        p#pageCountField(aria-labelledby='pageCountLabel') -
+                    .row
+                        span#pageSizeLabel(data-l10n-id='pdfjs-document-properties-page-size') Page Size:
+                        p#pageSizeField(aria-labelledby='pageSizeLabel') -
+                    .separator
+                    .row
+                        span#linearizedLabel(data-l10n-id='pdfjs-document-properties-linearized') Fast Web View:
+                        p#linearizedField(aria-labelledby='linearizedLabel') -
+                    .buttonRow
+                        button#documentPropertiesClose.dialogButton
+                            span(data-l10n-id='pdfjs-document-properties-close-button') Close
+                dialog#altTextDialog(aria-labelledby='dialogLabel', aria-describedby='dialogDescription')
+                    #altTextContainer
+                        #overallDescription
+                            span#dialogLabel.title(data-l10n-id='pdfjs-editor-alt-text-dialog-label') Choose an option
+                            span#dialogDescription(data-l10n-id='pdfjs-editor-alt-text-dialog-description')
+                                | Alt text (alternative text) helps when people can&rsquo;t see the image or when it doesn&rsquo;t load.
+                        #addDescription
+                            .radio
+                                .radioButton
+                                    input#descriptionButton(type='radio', name='altTextOption', tabindex='0', aria-describedby='descriptionAreaLabel', checked='')
+                                    label(for='descriptionButton', data-l10n-id='pdfjs-editor-alt-text-add-description-label') Add a description
+                                .radioLabel
+                                    span#descriptionAreaLabel(data-l10n-id='pdfjs-editor-alt-text-add-description-description')
+                                        | Aim for 1-2 sentences that describe the subject, setting, or actions.
+                            .descriptionArea
+                                textarea#descriptionTextarea(placeholder='For example, “A young man sits down at a table to eat a meal”', aria-labelledby='descriptionAreaLabel', data-l10n-id='pdfjs-editor-alt-text-textarea', tabindex='0')
+                        #markAsDecorative
+                            .radio
+                                .radioButton
+                                    input#decorativeButton(type='radio', name='altTextOption', aria-describedby='decorativeLabel')
+                                    label(for='decorativeButton', data-l10n-id='pdfjs-editor-alt-text-mark-decorative-label') Mark as decorative
+                                .radioLabel
+                                    span#decorativeLabel(data-l10n-id='pdfjs-editor-alt-text-mark-decorative-description')
+                                        | This is used for ornamental images, like borders or watermarks.
+                        #buttons
+                            button#altTextCancel(tabindex='0')
+                                span(data-l10n-id='pdfjs-editor-alt-text-cancel-button') Cancel
+                            button#altTextSave(tabindex='0')
+                                span(data-l10n-id='pdfjs-editor-alt-text-save-button') Save
+                // #if !MOZCENTRAL
+                dialog#printServiceDialog(style='min-width: 200px;')
+                    .row
+                        span(data-l10n-id='pdfjs-print-progress-message') Preparing document for printing&mldr;
+                    .row
+                        progress(value='0', max='100')
+                        span.relative-progress(data-l10n-id='pdfjs-print-progress-percent', data-l10n-args='{ "progress": 0 }') 0%
+                    .buttonRow
+                        button#printCancel.dialogButton
+                            span(data-l10n-id='pdfjs-print-progress-close-button') Cancel
+                // #endif
+                // #if CHROME
+                // #include viewer-snippet-chrome-overlays.html
+                // #endif
+            // dialogContainer
+        // outerContainer
+        #printContainer
+
+        //- script(type='text/javascript' src='/home/js/jquery.min.js')
+        //- script(type='text/javascript' src='/home/js/jquery-migrate-3.0.1.min.js')
+        //- script(type='text/javascript' src='/home/js/popper.min.js')
+        //- script(type='text/javascript' src='/home/js/bootstrap.min.js')
+        //- script(type='text/javascript' src='/home/js/jquery.easing.1.3.js')
+        //- script(type='text/javascript' src='/home/js/jquery.waypoints.min.js')
+        //- script(type='text/javascript' src='/home/js/jquery.stellar.min.js')
+        //- script(type='text/javascript' src='/home/js/owl.carousel.min.js')
+        //- script(type='text/javascript' src='/js/plugins/select2.min.js')
+        //- script(type='text/javascript' src='/home/js/jquery.magnific-popup.min.js')
+        //- script(type='text/javascript' src='/home/js/aos.js')
+        //- script(type='text/javascript' src='/home/js/jquery.animateNumber.min.js')
+        //- script(type='text/javascript' src='/home/js/jquery.fullscreen.min.js')
+        //- script(type='text/javascript' src='/home/js/bootstrap-datepicker.js')
+        //- script(type='text/javascript' src='/js/plugins/bootstrap-notify.min.js')
+        //- script(type='text/javascript' src='/home/js/scrollax.min.js')
+
+        each item in htmlWebpackPlugin.files.js
+            if item.indexOf('/js/utils')==0
+                script(type='text/javascript' src=`${item.substring(0, item.indexOf('.js')+3)}?v=${htmlWebpackPlugin.options.version}`)

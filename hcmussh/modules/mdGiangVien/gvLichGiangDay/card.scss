@@ -1,0 +1,54 @@
+.subject-card {
+    text-align: justify;
+    font-weight: normal;
+    width: 80%;
+    margin: 5px 0 5px 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+$column-widths: (
+    0,
+    50,
+    100,
+    225,
+);
+$table-columns: 1;
+$distanct: 0;
+
+.table-pin-wrapper {
+    position: relative;
+    z-index: 100;
+
+    table.table-pin {
+        border-spacing: 0 !important;
+        border-collapse: collapse;
+
+        tr,
+        td,
+        th {
+            border: 1px solid #e3dede;
+        }
+
+        td.sticky-col {
+            background-color: #f1f1f1;
+        }
+
+        .sticky-col {
+            position: sticky;
+            z-index: 300;
+
+            @for $i from 1 through 3 {
+                &.pin-#{$i}-col:nth-child(#{$i}) {
+                    width: #{nth($column-widths, $table-columns + 1)}px;
+                    min-width: #{nth($column-widths, $table-columns + 1)}px;
+                    max-width: #{nth($column-widths, $table-columns + 1)}px;
+                    left: #{$distanct + nth($column-widths, $i)}px;
+                }
+
+                $distanct: $distanct + nth($column-widths, $i);
+                $table-columns: $table-columns + 1;
+            }
+        }
+    }
+}

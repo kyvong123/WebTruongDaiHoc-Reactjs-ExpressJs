@@ -1,0 +1,310 @@
+$font-primary: "Roboto", Arial, sans-serif;
+
+
+$white: #fff;
+$black: #000000;
+// $darken: #3a4348;
+
+$primary-color: #1488db;
+
+@import '/view/admin/scss/admin/3-component/custom-radio-n-checkbox';
+
+
+.sdh-bieu-mau {
+    padding: 0 15px 0 15px;
+    margin: 0 0 0 0;
+
+    h1.text-primary.text-center {
+        text-transform: uppercase;
+    }
+
+    .tile-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #0e2399;
+    }
+
+    .tile-sub {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #0e2399;
+    }
+
+    .m-15 {
+        margin: 0 15px 0 15px;
+    }
+
+    .mb-5 {
+        margin-bottom: 5px;
+    }
+
+    .mt-5 {
+        margin-top: 5px;
+    }
+
+    .mt-2 {
+        margin-top: 2px;
+    }
+
+    .pa {
+        padding: 15px;
+    }
+
+    .p-15 {
+        padding: 0 15px 0 15px;
+    }
+
+    .note {
+        overflow: scroll;
+    }
+
+    label {
+        font-weight: 400;
+    }
+
+    .uppercase .form-control {
+        text-transform: uppercase;
+    }
+
+    .table td {
+        vertical-align: middle;
+    }
+
+    .widget-small .info {
+        flex: 1;
+        padding: 0 20px;
+        align-self: center;
+    }
+
+    .widget-small .info h4 {
+        text-transform: uppercase;
+        margin: 0;
+        //margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+
+    .widget-small {
+        display: flex;
+        border-radius: 4px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+
+    .widget-small.primary.coloured-icon:hover {
+        .icon {
+            background-color: red;
+        }
+    }
+
+    .widget-small.primary.coloured-icon:focus {
+        .icon {
+            background-color: red;
+        }
+    }
+
+    .widget-small.primary.coloured-icon .icon {
+        background-color: #1488db;
+        color: #fff;
+    }
+
+    .widget-small.primary.coloured-icon {
+        background-color: #fff;
+        color: #2a2a2a;
+        outline-style: solid;
+        outline-width: 0.5px;
+    }
+
+    .widget-small .icon {
+        display: flex;
+        min-width: 85px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 4px 0 0 4px;
+        font-size: 2.5rem;
+    }
+
+    .select2-container .select2-selection--multiple {
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        min-height: 32px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .select2-container .select2-selection--multiple .select2-selection__rendered {
+        display: inline-block;
+        overflow: hidden;
+        padding-left: 8px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .select2-container--default .select2-selection--multiple {
+        background-color: white;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        cursor: text;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+        box-sizing: border-box;
+        list-style: none;
+        margin: 0;
+        padding: 0 8px;
+        width: 100%;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+        color: #999;
+        margin-top: 5px;
+        float: left;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__clear {
+        cursor: pointer;
+        float: right;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        background-color: $primary-color;
+        color: $white;
+        border-radius: 3px;
+        cursor: default;
+        float: left;
+        margin-right: 6px;
+        margin-top: 6px;
+        padding: 1px 6px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+        color: $white;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 4px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+        color: #eee;
+    }
+
+    .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice,
+    .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder,
+    .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+        float: right;
+    }
+
+    .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+        margin-left: 2px;
+        margin-right: auto;
+    }
+
+    .select2-container--default.select2-container--focus .select2-selection--multiple {
+        border-color: $primary-color;
+        outline: 0;
+    }
+
+    .select2-container--default.select2-container--disabled .select2-selection--multiple {
+        background-color: #eee;
+        cursor: default;
+    }
+
+    .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-color: $primary-color
+    }
+
+    .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-color: $primary-color
+    }
+
+    .select2-container--classic .select2-selection--multiple {
+        background-color: white;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        cursor: text;
+        outline: 0;
+    }
+
+    .select2-container--classic .select2-selection--multiple:focus {
+        border: 1px solid $primary-color;
+    }
+
+    .select2-container--classic .select2-selection--multiple .select2-selection__rendered {
+        list-style: none;
+        margin: 0;
+        padding: 0 5px;
+    }
+
+    .select2-container--classic .select2-selection--multiple .select2-selection__clear {
+        display: none;
+    }
+
+    .select2-container--classic .select2-selection--multiple .select2-selection__choice {
+        background-color: #e4e4e4;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        cursor: default;
+        float: left;
+        margin-right: 5px;
+        margin-top: 5px;
+        padding: 0 5px;
+    }
+
+    .select2-container--classic .select2-selection--multiple .select2-selection__choice__remove {
+        color: #888;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 2px;
+    }
+
+    .select2-container--classic .select2-selection--multiple .select2-selection__choice__remove:hover {
+        color: #555;
+    }
+
+    .select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+        float: right;
+    }
+
+    .select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+        margin-left: 5px;
+        margin-right: auto;
+    }
+
+    .select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+        margin-left: 2px;
+        margin-right: auto;
+    }
+
+    .select2-container--classic.select2-container--open .select2-selection--multiple {
+        border: 1px solid $primary-color;
+    }
+
+    .select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple {
+        border-top: none;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .select2-container--classic.select2-container--open.select2-container--below .select2-selection--multiple {
+        border-bottom: none;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}

@@ -1,0 +1,24 @@
+.hover-parent {
+    position: relative;
+    /* Required for proper positioning */
+}
+
+.hover-show-element {
+    display: none;
+    /* Hide the element initially */
+    position: absolute;
+    /* Make it absolute for positioning */
+
+    /* Align it to the left */
+    /* Add other styling as needed */
+}
+
+.hover-parent:hover .hover-show-element {
+    display: block;
+    /* Show the element on hover */
+}
+
+.hover-parent:hover .hover-hide-element {
+    display: none;
+    /* Show the element on hover */
+}

@@ -1,0 +1,13 @@
+{
+    "id": 845,
+    "requester": "thanhtung@hcmut.edu.vn",
+    "param": {
+        "namHoc": "2023 - 2024",
+        "hocKy": "1",
+        "email": "thanhtung@hcmut.edu.vn"
+    },
+    "path": "/user/dao-tao/thu-lao-giang-day",
+    "task": "genThuLaoGiangDay",
+    "timeRequest": 1716009947104,
+    "taskName": "Tạo thù lao giảng dạy HK1 NH2023 - 2024"
+}

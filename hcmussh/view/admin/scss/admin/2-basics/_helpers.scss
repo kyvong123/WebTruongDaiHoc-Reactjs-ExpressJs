@@ -1,0 +1,34 @@
+// Helper Classes
+
+.light-text { font-weight: 300 !important; }
+.semibold-text { font-weight: 600 !important; }
+.line-head {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.blinking {
+	animation: blink-blink 1s linear infinite;
+}
+
+@keyframes blink-blink {
+	0% {
+		opacity: 0.3;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.3;
+	}
+};
+
+.ease-date-picker-input-enable:disabled {
+    background-color: #ffffff !important;
+}
+
+.ease-date-picker-input-enable:read-only {
+    background-color: #ffffff !important;
+}

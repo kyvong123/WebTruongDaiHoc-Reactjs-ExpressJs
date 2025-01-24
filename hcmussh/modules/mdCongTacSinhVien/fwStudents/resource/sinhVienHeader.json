@@ -1,0 +1,262 @@
+[
+    {
+        "header": "Mã sinh viên",
+        "key": "mssv",
+        "width": 10
+    },
+    {
+        "header": "Họ lót",
+        "key": "ho",
+        "width": 10
+    },
+    {
+        "header": "Tên",
+        "key": "ten",
+        "width": 10
+    },
+    {
+        "header": "Mã khóa",
+        "key": "maKhoa",
+        "width": 10
+    },
+    {
+        "header": "Mã khóa gốc",
+        "key": "maKhoaGoc",
+        "width": 10
+    },
+    {
+        "header": "Mã ngành",
+        "key": "maNganh",
+        "width": 10
+    },
+    {
+        "header": "Mã ngành gốc",
+        "key": "maNganhGoc",
+        "width": 10
+    },
+    {
+        "header": "CTĐT",
+        "key": "maCtdt",
+        "width": 10
+    },
+    {
+        "header": "Mã lớp",
+        "key": "maLop",
+        "width": 10
+    },
+    {
+        "header": "Loại sinh viên",
+        "key": "maLoaiSinhVien",
+        "width": 10
+    },
+    {
+        "header": "Tình trạng",
+        "key": "maTinhTrangSinhVien",
+        "width": 10
+    },
+    {
+        "header": "Mã cơ sở",
+        "key": "maCoSo",
+        "width": 10
+    },
+    {
+        "header": "Ngày sinh",
+        "key": "ngaySinh",
+        "width": 10
+    },
+    {
+        "header": "Nơi sinh",
+        "key": "noiSinh",
+        "width": 10
+    },
+    {
+        "header": "Giới tính",
+        "key": "maGioiTinh",
+        "width": 10
+    },
+    {
+        "header": "Số nhà",
+        "key": "soNhaThuongTru",
+        "width": 10
+    },
+    {
+        "header": "Phường",
+        "key": "xaThuongTru",
+        "width": 10
+    },
+    {
+        "header": "Mã quận huyện",
+        "key": "maHuyenThuongTru",
+        "width": 10
+    },
+    {
+        "header": "Mã tỉnh",
+        "key": "maTinhThuongTru",
+        "width": 10
+    },
+    {
+        "header": "CMND",
+        "key": "cccd",
+        "width": 10
+    },
+    {
+        "header": "ngày cấp CMND",
+        "key": "ngayCapCccd",
+        "width": 10
+    },
+    {
+        "header": "Nơi cấp CMND",
+        "key": "noiCapCccd",
+        "width": 10
+    },
+    {
+        "header": "Đoàn_Đảng",
+        "key": "doanDang",
+        "width": 10
+    },
+    {
+        "header": "Ngày vào",
+        "key": "ngayVaoDang",
+        "width": 10
+    },
+    {
+        "header": "Mã đối tượng",
+        "key": "doiTuongTuyenSinh",
+        "width": 10
+    },
+    {
+        "header": "Mã khu vực",
+        "key": "khuVucTuyenSinh",
+        "width": 10
+    },
+    {
+        "header": "Mã dân tộc",
+        "key": "maDanToc",
+        "width": 10
+    },
+    {
+        "header": "Mã tôn giáo",
+        "key": "maTonGiao",
+        "width": 10
+    },
+    {
+        "header": "Điện thoại HKTT",
+        "key": "dienThoaiKhac",
+        "width": 10
+    },
+    {
+        "header": "Địa chỉ liên hệ",
+        "key": "dienThoaiLienLac",
+        "width": 10
+    },
+    {
+        "header": "Điện thoại người liên hệ",
+        "key": "sdtNguoiLienLac",
+        "width": 10
+    },
+    {
+        "header": "Tên cha",
+        "key": "tenCha",
+        "width": 10
+    },
+    {
+        "header": "Ngày sinh Cha",
+        "key": "ngaySinhCha",
+        "width": 10
+    },
+    {
+        "header": "Nghề nghiệp cha",
+        "key": "ngheNghiepCha",
+        "width": 10
+    },
+    {
+        "header": "Tên mẹ",
+        "key": "tenMe",
+        "width": 10
+    },
+    {
+        "header": "Ngày sinh Mẹ",
+        "key": "ngaySinhMe",
+        "width": 10
+    },
+    {
+        "header": "Nghề nghiệp mẹ",
+        "key": "ngheNgiepMe",
+        "width": 10
+    },
+    {
+        "header": "Mã thành phần gia đình",
+        "key": "maThanhPhanGD",
+        "width": 10
+    },
+    {
+        "header": "Số anh chị em",
+        "key": "soAnhChiEm",
+        "width": 10
+    },
+    {
+        "header": "Số lượng nam",
+        "key": "soLuongNam",
+        "width": 10
+    },
+    {
+        "header": "Số lượng nữ",
+        "key": "soLuongNu",
+        "width": 10
+    },
+    {
+        "header": "Mã trường",
+        "key": "maTruong",
+        "width": 10
+    },
+    {
+        "header": "Khối thi",
+        "key": "khoiThi",
+        "width": 10
+    },
+    {
+        "header": "Ngành tuyển sinh",
+        "key": "ngayTuyenSinh",
+        "width": 10
+    },
+    {
+        "header": "Số báo danh",
+        "key": "soBaoDanh",
+        "width": 10
+    },
+    {
+        "header": "Mã nguyện vọng",
+        "key": "maNguyenVong",
+        "width": 10
+    },
+    {
+        "header": "Điểm môn 1",
+        "key": "diem1",
+        "width": 10
+    },
+    {
+        "header": "Điểm môn 2",
+        "key": "diem2",
+        "width": 10
+    },
+    {
+        "header": "Điểm môn 3",
+        "key": "diem3",
+        "width": 10
+    },
+    {
+        "header": "Điểm TC",
+        "key": "diemThi",
+        "width": 10
+    },
+    {
+        "header": "Email",
+        "key": "emailTruong",
+        "width": 10
+    },
+    {
+        "header": "Số ĐT SV",
+        "key": "soDienThoai",
+        "width": 10
+    }
+]

@@ -1,0 +1,46 @@
+/* For mobile phones: */
+chatbox-list-collapse-button {
+    z-index: 20;
+}
+
+@media only screen and (min-width: 0px) {
+
+    /* For tablets: */
+    .chatbox-page-container {
+        position: relative;
+    }
+
+    .chatbox-list,
+    .chatbox-detail {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .chatbox-list {
+        z-index: 10;
+        background: white;
+        height: calc(100vh - 150px);
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    /* For desktop: */
+    .chatbox-page-container {
+        position: relative;
+    }
+
+    .chatbox-detail,
+    .chatbox-list {
+        position: relative;
+    }
+
+    .chatbox-list {
+        z-index: 10;
+        background: white;
+        margin-top: 0px;
+        height: calc(100vh - 150px);
+    }
+}

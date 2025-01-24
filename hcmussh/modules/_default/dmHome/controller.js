@@ -1,0 +1,21 @@
+module.exports = app => {
+    app.get('/user/category', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/tccb', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    // app.get('/user', app.permission.orCheck('staff:login', 'developer:login', 'student:login'), app.templates.admin);
+    app.get('/user/settings', app.permission.check('developer:login'), app.templates.admin);
+    app.get('/user/truyen-thong', app.permission.check('user:login'), app.templates.admin);
+    app.get('/user/library', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/khcn', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/quan-ly-bhyt', app.permission.check('student:login'), app.templates.admin);
+    app.get('/user/hoc-phi', app.permission.check('student:login'), app.templates.admin);
+    app.get('/user/hcth', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/van-phong-dien-tu', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/ctsv', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/dao-tao', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/sau-dai-hoc', app.permission.orCheck('svSdh:write', 'staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/finance', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/affair', app.permission.orCheck('staff:teacher', 'developer:login'), app.templates.admin);
+    app.get('/user/bao-hiem-y-te', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/tmdt/y-shop', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+    app.get('/user/tt/lien-he', app.permission.orCheck('staff:login', 'developer:login'), app.templates.admin);
+};

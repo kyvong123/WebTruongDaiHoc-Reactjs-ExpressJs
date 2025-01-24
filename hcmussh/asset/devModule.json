@@ -1,0 +1,17 @@
+{
+    "mdCongTacSinhVien": {
+        "debug": false,
+        "tComponent": false,
+        "prefix": "/user/ctsv"
+    },
+    "mdDaoTao": {
+        "debug": false,
+        "tComponent": false,
+        "prefix": "/user/dao-tao"
+    },
+    "mdDanhMuc": {
+        "debug": false,
+        "tComponent": false,
+        "prefix": "/user/category"
+    }
+}
